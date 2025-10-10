@@ -1,4 +1,4 @@
-# Website Học Triết Học Mác-Lênin Dành Cho Sinh Viên
+# Cô Đọng Kiến Thức Triết Học Mác-Lênin Thay Cho Slide
 
 Chào mọi người, mình là một sinh viên năm nhất. Giống như nhiều bạn, mình cảm thấy Triết học Mác-Lênin là một môn học khá "khó nhằn" với lượng kiến thức đồ sộ và nhiều khái niệm trừu tượng.
 
