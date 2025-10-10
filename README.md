@@ -28,7 +28,7 @@ Nội dung của trang web được biên soạn và tổng hợp chủ yếu t�
 * Kiến thức tổng hợp từ các bài giảng trên giảng đường đại học.
 ## 🚀 Truy Cập Trang Web
 
-Bạn có thể truy cập và sử dụng trang web tại đây: **[Triết học Mác-Lênin](https://xseika.github.io/Pilosophos-CT100216/)**
+Bạn có thể truy cập và sử dụng trang web tại đây: **[Triết học Mác-Lênin](https://lnriax.github.io/Pilosophos-CT100216/)**
 
 ## 🤝 Lời Nhắn Từ Tác Giả & Đóng Góp
 
