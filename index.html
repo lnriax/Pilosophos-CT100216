@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Triết Học Mác-Lênin</title>
+    <title>Thấu Hiểu Triết Học Mác-Lênin</title>
+    <!-- Favicon (Logo on tab) - Thay 'logo.png' bằng tên file logo của bạn -->
+    <link rel="icon" type="image/png" href="logo.png">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts: Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: "Inter", sans-serif;
@@ -29,17 +25,17 @@
             text-align: center;
             border-radius: 15px;
             margin-bottom: 30px;
-            box-shadow: 0 4px
- 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
         .header h1 {
             font-size: 3.5rem;
             margin-bottom: 10px;
             font-weight: 700;
         }
-        .header p {
-            font-size: 1.5rem;
+        .header q {
+            font-size: 1.2rem;
             opacity: 0.9;
+            font-style: italic;
         }
         .section-title {
             font-size: 2.5rem;
@@ -114,7 +110,7 @@
             margin-bottom: 15px;
         }
         .card ul {
-            list-style-type: square;
+            list-style-type: circle; /* Changed from square to circle */
             margin-left: 25px;
         }
         .footer {
@@ -247,61 +243,50 @@
                     <h4>I. Triết học và Vấn đề cơ bản của Triết học</h4>
                     <h5>1. Khái lược về triết học</h5>
                     <h6>a) Nguồn gốc của triết học</h6>
-                    <p>Triết học là một loại hình nhận thức đặc thù, ra đời ở cả phương Đông và phương Tây gần như cùng một thời gian (khoảng từ thế kỷ VIII đến thế kỷ VI TCN) tại các trung tâm văn minh lớn. Sự xuất hiện của ý thức triết học có nguồn gốc thực tế từ tồn tại xã hội, với một trình độ nhất định của sự phát triển văn minh, văn hóa và khoa học.</p>
+                    <p>Triết học, một hình thái ý thức xã hội, ra đời vào khoảng thế kỷ VIII - VI TCN ở cả phương Đông (Ấn Độ, Trung Hoa) và phương Tây (Hy Lạp) tại các trung tâm văn minh lớn của nhân loại.</p>
                     <ul>
-                        <li><b>Nguồn gốc nhận thức:</b> Ban đầu, con người giải thích thế giới bằng tư duy huyền thoại và tín ngưỡng. Khi tri thức phát triển, tư duy con người đạt đến trình độ <span class="tooltip">trừu tượng hóa<span class="tooltip-text">Là hoạt động của tư duy, gạt bỏ những thuộc tính, những mối liên hệ không cơ bản, chỉ giữ lại những yếu tố bản chất, chung nhất của sự vật.</span></span> và <span class="tooltip">khái quát hóa<span class="tooltip-text">Là hoạt động của tư duy, liên kết nhiều đối tượng khác nhau vào một nhóm dựa trên những đặc điểm, thuộc tính chung, bản chất.</span></span>, con người có nhu cầu tổng kết tri thức thành một hệ thống lý luận chung nhất. Triết học ra đời đáp ứng nhu cầu đó, thay thế cho tư duy huyền thoại và tôn giáo.</li>
-                        <li><b>Nguồn gốc xã hội:</b> Triết học chỉ ra đời khi nền sản xuất xã hội đã có sự phân công lao động, lao động trí óc tách khỏi lao động chân tay, xã hội phân chia thành giai cấp và xuất hiện nhà nước. Tầng lớp trí thức ra đời, có điều kiện và nhu cầu nghiên cứu, hệ thống hóa các quan niệm, quan điểm thành học thuyết, lý luận. Khi xã hội có giai cấp, triết học ra đời và bản thân nó đã mang "tính đảng", luận chứng và bảo vệ lợi ích cho một giai cấp nhất định.</li>
+                        <li><b>Nguồn gốc nhận thức:</b> Khi tư duy con người phát triển đến trình độ <span class="tooltip">trừu tượng hóa<span class="tooltip-text">Là hoạt động của tư duy, gạt bỏ những thuộc tính không cơ bản, chỉ giữ lại những yếu tố bản chất, chung nhất của sự vật.</span></span> và <span class="tooltip">khái quát hóa<span class="tooltip-text">Là hoạt động của tư duy, liên kết các đối tượng vào một nhóm dựa trên những đặc điểm chung, bản chất.</span></span>, con người có nhu cầu giải thích thế giới một cách hệ thống, logic. Triết học ra đời như một hình thức tư duy lý luận, thay thế cho tư duy huyền thoại và tôn giáo sơ khai (Tô tem giáo, Bái vật giáo, Saman giáo). Ban đầu, triết học đóng vai trò là "khoa học của các khoa học", bao trùm mọi lĩnh vực tri thức.</li>
+                        <li><b>Nguồn gốc xã hội:</b> Triết học chỉ ra đời khi nền sản xuất xã hội đã có sự phân công lao động (lao động trí óc tách khỏi lao động chân tay) và xã hội xuất hiện giai cấp, nhà nước, chế độ tư hữu. Khi đó, tầng lớp trí thức xuất hiện, có điều kiện và nhu cầu nghiên cứu, hệ thống hóa tri thức thành các học thuyết. Triết học ra đời đã mang "tính đảng", phục vụ lợi ích của một giai cấp nhất định.</li>
                     </ul>
 
                     <h6>b) Khái niệm triết học</h6>
-                    <p>Ở Trung Quốc, chữ "triết" (哲) có từ rất sớm, chỉ sự truy tìm bản chất đối tượng, là biểu hiện cao của trí tuệ. Ở Ấn Độ, thuật ngữ "Dar'sana" (triết học) có nghĩa gốc là chiêm ngưỡng, hàm ý là tri thức dựa trên lý trí. Ở phương Tây, "philosophia" (tiếng Hy Lạp) có nghĩa là "yêu mến sự thông thái", vừa là giải thích vũ trụ, vừa là khát vọng tìm kiếm chân lý.</p>
-                    <p><b>Theo quan điểm của triết học Mác-Lênin:</b> Triết học là hệ thống quan điểm lý luận chung nhất về thế giới và vị trí con người trong thế giới đó, là khoa học về những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy. Triết học khác các khoa học khác ở tính khái quát cao và phương pháp xem xét thế giới như một chỉnh thể.</p>
-                    
-                    <h6>c) Đối tượng của triết học trong lịch sử</h6>
-                    <p>Đối tượng của triết học là các quan hệ phổ biến và các quy luật chung nhất của toàn bộ tự nhiên, xã hội và tư duy. Tuy nhiên, đối tượng này đã thay đổi qua các thời kỳ:</p>
+                    <p>Tùy theo nền văn hóa, khái niệm "triết học" có những sắc thái riêng:</p>
                     <ul>
-                        <li><b>Thời kỳ cổ đại:</b> Triết học được xem là "khoa học của các khoa học", bao hàm tri thức của tất cả các lĩnh vực (triết học tự nhiên).</li>
-                        <li><b>Thời Trung cổ (Tây Âu):</b> Nền triết học tự nhiên bị thay thế bằng nền triết học kinh viện. Đối tượng của triết học chỉ tập trung vào các chủ đề như niềm tin tôn giáo, thiên đường, địa ngục...</li>
-                        <li><b>Thời kỳ Phục hưng và Cận đại:</b> Cùng với sự phát triển của khoa học thực nghiệm, triết học duy vật phát triển mạnh, đấu tranh chống chủ nghĩa duy tâm và tôn giáo.</li>
-                        <li><b>Triết học cổ điển Đức:</b> Là học thuyết triết học cuối cùng thể hiện tham vọng đóng vai trò "khoa học của các khoa học" (đỉnh cao là Hegel).</li>
-                        <li><b>Triết học Mác ra đời:</b> Đoạn tuyệt với quan niệm trên, xác định đối tượng nghiên cứu của mình là tiếp tục giải quyết mối quan hệ giữa vật chất và ý thức trên lập trường duy vật triệt để và nghiên cứu những quy luật chung nhất của tự nhiên, xã hội và tư duy.</li>
+                        <li><b>Trung Quốc:</b> Chữ "triết" (哲) có nghĩa là trí, là sự truy tìm bản chất của vũ trụ và định hướng nhân sinh quan.</li>
+                        <li><b>Ấn Độ:</b> "Dar'sana" có nghĩa là "chiêm ngưỡng", là con đường suy ngẫm để đạt tới chân lý.</li>
+                        <li><b>Hy Lạp:</b> "Philosophia" có nghĩa là "yêu mến sự thông thái", là khát vọng tìm kiếm chân lý để giải thích vũ trụ.</li>
+                    </ul>
+                    <p><b>Định nghĩa chung:</b> Triết học là hệ thống quan điểm lý luận chung nhất về thế giới và vị trí của con người trong thế giới đó, là khoa học về những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy. Tri thức triết học mang tính khái quát cao, sử dụng các công cụ lý tính, logic và kinh nghiệm để xây dựng thế giới quan bằng lý luận.</p>
+                    
+                    <h6>c) Vấn đề đối tượng của triết học</h6>
+                    <p>Đối tượng của triết học là các quan hệ phổ biến và các quy luật chung nhất của toàn bộ tự nhiên, xã hội và tư duy. Đối tượng này đã thay đổi qua các thời kỳ:</p>
+                    <ul>
+                        <li><b>Thời cổ đại:</b> Triết học tự nhiên bao gồm tất cả các tri thức (toán học, vật lý học, thiên văn học...).</li>
+                        <li><b>Tây Âu thời trung cổ:</b> Triết học kinh viện chỉ tập trung vào các chủ đề tôn giáo.</li>
+                        <li><b>Thời Phục hưng & Cận đại:</b> Các khoa học chuyên ngành dần tách ra. Quan niệm "Triết học là khoa học của mọi khoa học" đạt đỉnh cao ở triết học Hegel.</li>
+                        <li><b>Triết học Mác:</b> Xác định đối tượng nghiên cứu là tiếp tục giải quyết mối quan hệ giữa vật chất và ý thức và nghiên cứu những quy luật chung nhất của tự nhiên, xã hội và tư duy.</li>
                     </ul>
 
                     <h6>d) Triết học - hạt nhân lý luận của thế giới quan</h6>
-                    <p><b>Thế giới quan</b> là khái niệm triết học chỉ hệ thống các tri thức, quan điểm, tình cảm, niềm tin, lý tưởng xác định về thế giới và về vị trí của con người trong thế giới đó. Các thành phần chủ yếu của thế giới quan là tri thức, niềm tin và lý tưởng. Các loại hình thế giới quan chính gồm TGQ huyền thoại, TGQ tôn giáo, và TGQ triết học.</p>
-                    <p>Triết học là <b>hạt nhân lý luận</b> của thế giới quan, bởi:</p>
+                    <p><b>Thế giới quan</b> là hệ thống các tri thức, quan điểm, tình cảm, niềm tin, lý tưởng xác định về thế giới và về vị trí của con người trong thế giới đó. Các thành phần chính là tri thức, niềm tin và lý tưởng.</p>
+                    <p>Triết học là <b>hạt nhân lý luận</b> của thế giới quan vì:</p>
                     <ul>
-                        <li>Thứ nhất, bản thân triết học chính là thế giới quan.</li>
-                        <li>Thứ hai, trong các thế giới quan khác (khoa học cụ thể, tôn giáo, dân tộc...), triết học bao giờ cũng là thành phần quan trọng, đóng vai trò là nhân tố cốt lõi.</li>
-                        <li>Thứ ba, triết học có ảnh hưởng và chi phối các thế giới quan thông thường, kinh nghiệm, dù có thể không tự giác.</li>
-                        <li>Thứ tư, thế giới quan triết học như thế nào sẽ quy định các thế giới quan và các quan niệm khác như thế.</li>
+                        <li>Bản thân triết học chính là thế giới quan.</li>
+                        <li>Triết học là thành phần cốt lõi, chi phối các thế giới quan khác (tôn giáo, kinh nghiệm...).</li>
+                        <li>Thế giới quan triết học quy định mọi quan niệm khác của con người.</li>
                     </ul>
-                    <p>Thế giới quan duy vật biện chứng được coi là đỉnh cao của các loại thế giới quan vì nó đòi hỏi thế giới phải được xem xét dựa trên những nguyên lý về mối liên hệ phổ biến và nguyên lý về sự phát triển.</p>
+                    <p>Thế giới quan duy vật biện chứng được coi là đỉnh cao vì nó dựa trên những nguyên lý khoa học về mối liên hệ phổ biến và sự phát triển.</p>
 
                     <h5>2. Vấn đề cơ bản của triết học</h5>
                     <h6>a) Nội dung vấn đề cơ bản của triết học</h6>
-                    <p>Theo Ph.Ăngghen, "Vấn đề cơ bản lớn của mọi triết học, đặc biệt là của triết học hiện đại, là vấn đề quan hệ giữa tư duy và tồn tại". Vấn đề này có hai mặt:</p>
-                    <table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th>Hai mặt của Vấn đề Cơ bản</th>
-                                <th>Câu hỏi trung tâm</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><b>Mặt thứ nhất (Bản thể luận)</b></td>
-                                <td>Giữa ý thức và vật chất thì cái nào có trước, cái nào có sau, cái nào quyết định cái nào?</td>
-                            </tr>
-                            <tr>
-                                <td><b>Mặt thứ hai (Nhận thức luận)</b></td>
-                                <td>Con người có khả năng nhận thức được thế giới hay không?</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <p>Theo Ph.Ăngghen, vấn đề cơ bản lớn của mọi triết học là <b>mối quan hệ giữa vật chất và ý thức</b> (hay giữa tư duy và tồn tại). Vấn đề này có hai mặt:</p>
+                    <ul>
+                        <li><b>Mặt thứ nhất (Bản thể luận):</b> Giữa ý thức và vật chất thì cái nào có trước, cái nào có sau, cái nào quyết định cái nào?</li>
+                        <li><b>Mặt thứ hai (Nhận thức luận):</b> Con người có khả năng nhận thức được thế giới hay không?</li>
+                    </ul>
 
                     <h6>b) Chủ nghĩa duy vật và chủ nghĩa duy tâm</h6>
-                    <p>Việc giải quyết mặt thứ nhất của vấn đề cơ bản đã chia các nhà triết học thành hai trường phái lớn:</p>
+                    <p>Việc giải quyết mặt thứ nhất đã chia các nhà triết học thành hai trường phái lớn:</p>
                      <table class="comparison-table">
                         <thead>
                             <tr>
@@ -313,40 +298,39 @@
                         <tbody>
                             <tr>
                                 <td><b>Chủ nghĩa duy vật</b></td>
-                                <td>Vật chất, giới tự nhiên là cái có trước và quyết định ý thức.</td>
+                                <td>Vật chất là cái có trước, quyết định ý thức.</td>
                                 <td>
                                     <ul>
-                                        <li><b>CNDV chất phác (thời cổ đại):</b> Đồng nhất vật chất với một dạng cụ thể, cảm tính (nước, lửa...). Về cơ bản là đúng vì đã lấy tự nhiên để giải thích tự nhiên.</li>
-                                        <li><b>CNDV siêu hình (thế kỷ XV-XVIII):</b> Chịu ảnh hưởng của phương pháp tư duy siêu hình, cơ giới, nhìn thế giới như một cỗ máy khổng lồ, tĩnh tại. Đã góp phần đẩy lùi thế giới quan duy tâm, tôn giáo.</li>
-                                        <li><b>CNDV biện chứng:</b> Do C. Mác và Ph. Ăngghen xây dựng, V.I. Lênin phát triển. Khắc phục hạn chế của các hình thức trước, là hình thức phát triển cao nhất, trở thành công cụ để nhận thức và cải tạo thế giới.</li>
+                                        <li><b>CNDV chất phác (cổ đại):</b> Đồng nhất vật chất với một dạng cụ thể (nước, lửa...).</li>
+                                        <li><b>CNDV siêu hình (cận đại):</b> Nhìn thế giới tĩnh tại, biệt lập như một cỗ máy.</li>
+                                        <li><b>CNDV biện chứng (Mác-Lênin):</b> Là đỉnh cao, khắc phục hạn chế của các hình thức trước.</li>
                                     </ul>
                                 </td>
                             </tr>
                             <tr>
                                 <td><b>Chủ nghĩa duy tâm</b></td>
-                                <td>Ý thức, tinh thần là cái có trước và quyết định vật chất.</td>
+                                <td>Ý thức là cái có trước, quyết định vật chất. Thừa nhận sự sáng tạo thế giới của lực lượng siêu nhiên.</td>
                                 <td>
                                     <ul>
-                                        <li><b>CNDT chủ quan:</b> Thừa nhận tính thứ nhất của ý thức con người. Khẳng định mọi sự vật, hiện tượng chỉ là phức hợp của những cảm giác (G. Berkeley).</li>
-                                        <li><b>CNDT khách quan:</b> Thừa nhận tính thứ nhất của một thứ tinh thần khách quan có trước và tồn tại độc lập với con người (ý niệm, tinh thần tuyệt đối, lý tính thế giới...).</li>
+                                        <li><b>Duy tâm chủ quan:</b> Thừa nhận tính thứ nhất của ý thức cá nhân (sự vật là phức hợp cảm giác).</li>
+                                        <li><b>Duy tâm khách quan:</b> Thừa nhận tính thứ nhất của một tinh thần khách quan có trước con người (ý niệm, lý tính thế giới).</li>
                                     </ul>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
-                    <p>Ngoài ra còn có <b>Nhị nguyên luận</b> (điển hình là Descartes), cho rằng cả vật chất và tinh thần đều là hai bản nguyên song song tồn tại, cùng quyết định sự vận động của thế giới. Tuy nhiên, xét đến cùng, nhị nguyên luận thuộc về chủ nghĩa duy tâm.</p>
+                    <p>Ngoài ra còn có <b>Nhất nguyên luận</b> (thừa nhận một trong hai thực thể là bản nguyên) và <b>Nhị nguyên luận</b> (thừa nhận cả hai bản nguyên cùng tồn tại).</p>
 
-                    <h6>c) Thuyết có thể biết (Thuyết khả tri) và thuyết không thể biết (Thuyết bất khả tri)</h6>
-                    <p>Đây là kết quả của cách giải quyết mặt thứ hai vấn đề cơ bản của triết học:</p>
+                    <h6>c) Thuyết có thể biết (khả tri luận) và thuyết không thể biết (bất khả tri luận)</h6>
+                    <p>Đây là cách giải quyết mặt thứ hai của vấn đề cơ bản của triết học:</p>
                      <ul>
-                        <li><b>Thuyết khả tri (Gnosticism):</b> Khẳng định rằng về nguyên tắc, con người có thể hiểu được bản chất của sự vật. Tuyệt đại đa số các nhà triết học (cả duy vật và duy tâm) đều theo thuyết này.</li>
-                        <li><b>Thuyết bất khả tri (Agnosticism):</b> Phủ nhận khả năng nhận thức bản chất của đối tượng. Theo thuyết này, con người không thể hiểu được bản chất đối tượng, chỉ nhận thức được hình thức bề ngoài, hạn hẹp. Đại biểu điển hình là D. Hume và I. Kant (với thuyết "vật tự nó").</li>
-                        <li><b>Hoài nghi luận:</b> Nâng sự hoài nghi lên thành nguyên tắc, cho rằng con người không thể đạt đến chân lý khách quan.</li>
+                        <li><b>Khả tri luận:</b> Khẳng định rằng về nguyên tắc, con người có thể hiểu được bản chất của sự vật.</li>
+                        <li><b>Bất khả tri luận:</b> Phủ nhận khả năng con người hiểu được bản chất thật sự của đối tượng.</li>
+                        <li><b>Hoài nghi luận:</b> Nâng cao sự nghi ngờ trong việc đánh giá tri thức, cho rằng con người không thể đạt đến chân lý khách quan.</li>
                     </ul>
 
                     <h5>3. Biện chứng và siêu hình</h5>
                     <h6>a) Khái niệm biện chứng và siêu hình trong lịch sử</h6>
-                    <p>Trong triết học hiện đại, đặc biệt là triết học mác-xít, chúng được dùng để chỉ hai phương pháp tư duy chung nhất, đối lập nhau.</p>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -356,74 +340,84 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Nhận thức đối tượng ở trạng thái <b>cô lập, tách rời</b>, tĩnh tại. Coi các mặt đối lập có ranh giới tuyệt đối.</td>
-                                <td>Nhận thức đối tượng trong các <b>mối liên hệ phổ biến</b> vốn có của nó, trong sự vận động, biến đổi và phát triển.</td>
+                                <td>Nhận thức đối tượng trong trạng thái <b>tĩnh tại, cô lập, tách rời</b>.</td>
+                                <td>Nhận thức đối tượng trong các <b>mối liên hệ phổ biến, vận động, phát triển</b>.</td>
                             </tr>
                             <tr>
-                                <td>Thừa nhận sự biến đổi chỉ là sự biến đổi về số lượng. Nguyên nhân của sự biến đổi nằm ở bên ngoài đối tượng.</td>
-                                <td>Nhận thức đối tượng ở trạng thái luôn vận động, biến đổi. Nguồn gốc của sự vận động là đấu tranh giữa các mặt đối lập của mâu thuẫn nội tại.</td>
-                            </tr>
-                             <tr>
-                                <td>Có công lớn trong cơ học cổ điển nhưng hạn chế khi giải quyết các vấn đề về vận động, liên hệ. "Chỉ nhìn thấy cây mà không thấy rừng".</td>
-                                <td>Phản ánh hiện thực đúng như nó tồn tại. Trở thành công cụ hữu hiệu giúp con người nhận thức và cải tạo thế giới.</td>
+                                <td>Có vai trò trong cơ học cổ điển nhưng hạn chế khi giải quyết các vấn đề về vận động, liên hệ.</td>
+                                <td>Là công cụ hữu hiệu giúp con người nhận thức và cải tạo thế giới.</td>
                             </tr>
                         </tbody>
                     </table>
-                    <h6>b) Các hình thức của phép biện chứng trong lịch sử</h6>
-                    <p>Phép biện chứng đã trải qua ba hình thức lịch sử:</p>
-                    <ul>
-                        <li><b>Phép biện chứng tự phát thời cổ đại:</b> Các nhà biện chứng đã thấy được sự vật vận động, biến hóa nhưng chỉ là trực kiến, chưa có cơ sở khoa học.</li>
-                        <li><b>Phép biện chứng duy tâm:</b> Đỉnh cao là trong triết học cổ điển Đức (khởi đầu là Kant, hoàn thiện là Hegel). Lần đầu tiên trình bày hệ thống các nội dung quan trọng của phương pháp biện chứng, nhưng lại cho rằng biện chứng bắt đầu và kết thúc ở tinh thần, ở ý niệm.</li>
-                        <li><b>Phép biện chứng duy vật:</b> Do C. Mác và Ph. Ăngghen xây dựng, V.I. Lênin phát triển. Đã gạt bỏ tính thần bí, tư biện, kế thừa hạt nhân hợp lý để xây dựng học thuyết về mối liên hệ phổ biến và sự phát triển hoàn bị nhất, thống nhất giữa chủ nghĩa duy vật và phép biện chứng.</li>
+
+                    <h6>b) Các hình thức cơ bản của phép biện chứng</h6>
+                     <ul>
+                        <li><b>Phép biện chứng tự phát (cổ đại):</b> Các nhà triết học đã thấy được sự vật vận động, biến hóa nhưng chỉ là trực kiến, chưa có cơ sở khoa học.</li>
+                        <li><b>Phép biện chứng duy tâm (triết học cổ điển Đức):</b> Biện chứng bắt đầu từ tinh thần và kết thúc ở tinh thần, thế giới hiện thực chỉ là phản ánh biện chứng của ý niệm.</li>
+                        <li><b>Phép biện chứng duy vật (Mác-Lênin):</b> Kế thừa hạt nhân hợp lý và gạt bỏ tính thần bí của các hình thức trước, tạo ra sự thống nhất giữa chủ nghĩa duy vật và phép biện chứng.</li>
                     </ul>
 
-                    <h4>II. Triết học Mác - Lênin và vai trò của nó</h4>
+
+                    <h4>II. Triết học Mác - Lênin và vai trò của nó trong đời sống</h4>
                     <h5>1. Sự ra đời và phát triển của Triết học Mác-Lênin</h5>
                     <h6>a) Những điều kiện lịch sử của sự ra đời triết học Mác</h6>
-                    <p>Sự xuất hiện triết học Mác là một cuộc cách mạng trong lịch sử, là kết quả tất yếu của sự phát triển lịch sử tư tưởng và khoa học, phụ thuộc vào những điều kiện kinh tế - xã hội.</p>
                     <ul>
                         <li><b>Điều kiện kinh tế - xã hội:</b>
                             <ul>
-                                <li>Sự củng cố và phát triển của phương thức sản xuất tư bản chủ nghĩa trong điều kiện cách mạng công nghiệp.</li>
-                                <li>Sự xuất hiện của giai cấp vô sản trên vũ đài lịch sử với tư cách một lực lượng chính trị - xã hội độc lập. Thực tiễn cách mạng của giai cấp vô sản là cơ sở chủ yếu nhất cho sự ra đời triết học Mác.</li>
+                                <li>Sự phát triển mạnh mẽ của phương thức sản xuất tư bản chủ nghĩa do cách mạng công nghiệp.</li>
+                                <li>Sự xuất hiện của giai cấp vô sản trên vũ đài lịch sử. Thực tiễn cách mạng của giai cấp vô sản là cơ sở trực tiếp cho sự ra đời triết học Mác.</li>
                             </ul>
                         </li>
                         <li><b>Nguồn gốc lý luận và tiền đề khoa học tự nhiên:</b>
                             <ul>
-                                <li><b>Nguồn gốc lý luận:</b> Kế thừa trực tiếp từ <b>Triết học cổ điển Đức</b> (phép biện chứng của Hegel và chủ nghĩa duy vật của Feuerbach), <b>Kinh tế chính trị học cổ điển Anh</b> (A. Smith, D. Ricardo), và <b>Chủ nghĩa xã hội không tưởng Pháp</b> (Saint Simon, Charles Fourier).</li>
-                                <li><b>Tiền đề khoa học tự nhiên:</b> Ba phát minh lớn của khoa học tự nhiên là Định luật bảo toàn và chuyển hóa năng lượng, Thuyết tế bào, và Thuyết tiến hóa của Darwin đã cung cấp cơ sở tri thức khoa học để phát triển tư duy biện chứng.</li>
+                                <li><b>Nguồn gốc lý luận:</b> Kế thừa những thành tựu tư tưởng của nhân loại: Triết học cổ điển Đức, Kinh tế chính trị học cổ điển Anh, Chủ nghĩa xã hội không tưởng Pháp.</li>
+                                <li><b>Tiền đề KHTN:</b> Ba phát minh lớn: Định luật bảo toàn và chuyển hóa năng lượng, Thuyết tế bào, và Học thuyết tiến hóa của Đác-uyn.</li>
                             </ul>
                         </li>
-                         <li><b>Nhân tố chủ quan:</b> Hoạt động thực tiễn cách mạng không mệt mỏi của C. Mác và Ph. Ăngghen, lập trường giai cấp công nhân, sự am hiểu sâu sắc cuộc sống khốn khổ của họ, cùng với trí tuệ thiên tài đã kết tinh thành nhân tố chủ quan cho sự ra đời của triết học Mác.</li>
+                         <li><b>Nhân tố chủ quan:</b> Hoạt động thực tiễn cách mạng không mệt mỏi, lập trường giai cấp công nhân, trí tuệ thiên tài và tình bạn vĩ đại của C. Mác và Ph. Ăngghen.</li>
                     </ul>
                     
-                    <h6>b) Giai đoạn V.I. Lênin trong sự phát triển triết học Mác</h6>
-                    <p>V.I.Lênin đã bảo vệ và phát triển sáng tạo triết học Mác trong hoàn cảnh lịch sử mới:</p>
+                    <h6>b) Các thời kỳ chủ yếu trong sự hình thành và phát triển của Triết học Mác</h6>
+                    <ul>
+                        <li><b>1841-1844:</b> Thời kỳ hình thành tư tưởng, C. Mác và Ph. Ăngghen chuyển từ chủ nghĩa duy tâm và dân chủ cách mạng sang chủ nghĩa duy vật và chủ nghĩa cộng sản.</li>
+                        <li><b>1844-1848:</b> Thời kỳ đề xuất những nguyên lý cơ bản của chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử.</li>
+                        <li><b>1848-1895:</b> Thời kỳ C. Mác và Ph. Ăngghen bổ sung và phát triển toàn diện lý luận triết học.</li>
+                    </ul>
+                    
+                     <h6>c) Thực chất và ý nghĩa cuộc cách mạng trong triết học do C. Mác và Ph. Ăngghen thực hiện</h6>
                      <ul>
-                        <li>Chủ nghĩa tư bản tự do cạnh tranh chuyển sang giai đoạn đế quốc chủ nghĩa.</li>
-                        <li>Cuộc cách mạng trong khoa học tự nhiên cuối thế kỷ XIX, đầu thế kỷ XX (phát hiện ra tia X, điện tử, hiện tượng phóng xạ...) gây ra cuộc khủng hoảng về thế giới quan trong vật lý học, bị chủ nghĩa duy tâm lợi dụng để tấn công chủ nghĩa duy vật.</li>
-                        <li>Các nhà tư tưởng tư sản tấn công, xuyên tạc và phủ nhận chủ nghĩa Mác.</li>
+                        <li>Thống nhất hữu cơ giữa chủ nghĩa duy vật và phép biện chứng, sáng tạo ra chủ nghĩa duy vật biện chứng.</li>
+                        <li>Sáng tạo ra chủ nghĩa duy vật lịch sử, đưa quan điểm duy vật vào nghiên cứu lịch sử xã hội, đây là nội dung chủ yếu của bước ngoặt cách mạng trong triết học.</li>
+                        <li>Tạo ra một triết học chân chính khoa học với các đặc tính mới: tính thực tiễn, thống nhất giữa lý luận và thực tiễn, tính đảng và tính khoa học, tính sáng tạo...</li>
+                     </ul>
+
+                    <h6>d) Giai đoạn V.I. Lênin trong sự phát triển của triết học Mác</h6>
+                    <p>V.I.Lênin đã bảo vệ và phát triển sáng tạo triết học Mác trong bối cảnh lịch sử mới:</p>
+                     <ul>
+                        <li>Chủ nghĩa tư bản chuyển sang giai đoạn đế quốc chủ nghĩa.</li>
+                        <li>Cuộc cách mạng khoa học tự nhiên cuối thế kỷ XIX, đầu thế kỷ XX gây ra khủng hoảng về thế giới quan.</li>
+                        <li>Sự tấn công của các trào lưu triết học tư sản, chủ nghĩa cơ hội, xét lại chống lại chủ nghĩa Mác.</li>
                     </ul>
-                    <p>Trong giai đoạn này, V.I. Lênin đã có những đóng góp to lớn như định nghĩa kinh điển về vật chất trong tác phẩm "Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán", phát triển toàn diện phép biện chứng duy vật, lý luận về cách mạng xã hội chủ nghĩa trong thời đại đế quốc chủ nghĩa...</p>
+                    <p>Các thời kỳ phát triển của Lênin: 1893-1907 (thành lập đảng mác-xít ở Nga), 1907-1917 (phát triển toàn diện triết học Mác, chuẩn bị cách mạng), 1917-1924 (tổng kết kinh nghiệm thực tiễn, nghiên cứu các vấn đề xây dựng CNXH).</p>
                     
-                    <h5>2. Đối tượng và chức năng của triết học Mác - Lênin</h5>
-                    <p><b>Đối tượng nghiên cứu:</b> Giải quyết mối quan hệ giữa vật chất và ý thức trên lập trường duy vật biện chứng và nghiên cứu những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy. Triết học Mác-Lênin phân biệt rõ ràng đối tượng của triết học và đối tượng của các khoa học cụ thể, và có mối quan hệ gắn bó chặt chẽ với các khoa học cụ thể.</p>
+                    <h5>2. Đối tượng và chức năng của Triết học Mác - Lênin</h5>
+                    <p><b>Đối tượng:</b> Giải quyết mối quan hệ giữa vật chất và ý thức trên lập trường duy vật biện chứng và nghiên cứu những quy luật vận động, phát triển chung nhất của tự nhiên, xã hội và tư duy. Đồng thời phân biệt rõ ràng đối tượng của triết học với các khoa học cụ thể.</p>
                     <p><b>Chức năng:</b>
                         <ul>
-                            <li><b>Chức năng thế giới quan:</b> Đem lại thế giới quan duy vật biện chứng. Nó định hướng con người nhận thức đúng thế giới hiện thực, hình thành quan điểm khoa học, và là cơ sở khoa học để đấu tranh với các loại thế giới quan duy tâm, tôn giáo, phản khoa học.</li>
-                            <li><b>Chức năng phương pháp luận:</b> Là hệ thống những quan điểm, nguyên tắc chỉ đạo hoạt động nhận thức và thực tiễn. Nó trang bị cho con người hệ thống những nguyên tắc phương pháp luận chung nhất. Cần tránh cả hai thái cực xem thường hoặc tuyệt đối hóa vai trò của phương pháp luận triết học.</li>
+                            <li><b>Chức năng thế giới quan:</b> Đem lại thế giới quan duy vật biện chứng, giúp con người nhận thức đúng đắn thế giới, hình thành quan điểm khoa học và thái độ sống tích cực.</li>
+                            <li><b>Chức năng phương pháp luận:</b> Là phương pháp chung nhất cho toàn bộ nhận thức khoa học và hoạt động thực tiễn. Tránh sa vào tình trạng mò mẫm, mất phương hướng hoặc giáo điều, máy móc.</li>
                         </ul>
                     </p>
                     
                      <h5>3. Vai trò của triết học Mác - Lênin trong đời sống xã hội và trong sự nghiệp đổi mới ở Việt Nam hiện nay</h5>
                     <ul>
-                        <li><b>Là thế giới quan, phương pháp luận khoa học và cách mạng cho con người trong nhận thức và thực tiễn:</b> Những nguyên lý và quy luật của nó có giá trị định hướng quan trọng, giúp con người xác định được con đường cần đi, tránh lầm lạc, mò mẫm.</li>
-                         <li><b>Là cơ sở thế giới quan và phương pháp luận khoa học và cách mạng để phân tích xu hướng phát triển của xã hội trong điều kiện cuộc cách mạng khoa học và công nghệ hiện đại phát triển mạnh mẽ:</b> Nó là cơ sở để phân tích xu hướng vận động của xã hội hiện đại, đặc biệt trong bối cảnh toàn cầu hóa.</li>
-                        <li><b>Là cơ sở lý luận khoa học của công cuộc xây dựng chủ nghĩa xã hội trên thế giới và sự nghiệp đổi mới theo định hướng xã hội chủ nghĩa ở Việt Nam:</b> Triết học Mác-Lênin là nền tảng cho quá trình đổi mới tư duy, giúp Đảng Cộng sản Việt Nam nhìn nhận con đường đi lên CNXH, đánh giá bối cảnh mới và giải quyết các mối quan hệ cơ bản của quá trình đổi mới.</li>
+                        <li>Là thế giới quan, phương pháp luận khoa học và cách mạng cho con người trong nhận thức và thực tiễn.</li>
+                         <li>Là cơ sở thế giới quan, phương pháp luận để phân tích xu hướng phát triển của xã hội trong điều kiện cách mạng khoa học - công nghệ hiện đại.</li>
+                        <li>Là cơ sở lý luận khoa học của công cuộc xây dựng chủ nghĩa xã hội và sự nghiệp đổi mới theo định hướng xã hội chủ nghĩa ở Việt Nam.</li>
                     </ul>
 
                     <div class="infographic">
-                        <h4 class="text-2xl font-bold mb-4">Sự ra đời của Triết học Mác</h4>
+                        <h4 class="text-2xl font-bold mb-4">Infographic: Sự ra đời của Triết học Mác</h4>
                         <svg width="100%" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
                             <rect x="250" y="10" width="300" height="60" rx="10" fill="#c0392b" />
                             <text x="400" y="45" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle" font-weight="bold">TRIẾT HỌC MÁC</text>
@@ -460,115 +454,115 @@
                     <h2 class="section-title">Chương 2: Chủ nghĩa Duy vật Biện chứng</h2>
                     
                     <h4>I. Vật chất và Ý thức</h4>
-                    <h5>1. Vật chất và các hình thức tồn tại của vật chất</h5>
-                    <h6>a) Quan niệm của chủ nghĩa duy tâm và duy vật trước Mác về vật chất</h6>
-                    <p><b>Chủ nghĩa duy tâm:</b> Thừa nhận sự tồn tại của sự vật nhưng phủ nhận đặc tính "tự thân tồn tại" của chúng. CNDT khách quan cho rằng giới tự nhiên là do "sự tha hóa của tinh thần thế giới". CNDT chủ quan cho rằng sự vật chỉ là phức hợp cảm giác.</p>
-                    <p><b>Chủ nghĩa duy vật trước Mác:</b> Quan niệm về vật chất từng bước phát triển:</p>
-                    <ul>
-                        <li><b>Thời cổ đại (CNDV chất phác):</b> Quy vật chất về một hay một vài dạng cụ thể, cảm tính như nước (Thales), lửa (Heraclitus), không khí (Anaximenes) hay nguyên tử (Democritos). Quan niệm này mang tính trực quan, ngây thơ nhưng đã lấy bản thân giới tự nhiên để giải thích thế giới.</li>
-                        <li><b>Thế kỷ XV - XVIII (CNDV siêu hình):</b> Dưới tác động của cơ học cổ điển, các nhà triết học thường đồng nhất vật chất với khối lượng, coi các định luật cơ học là bất biến, xem vật chất, vận động, không gian, thời gian là những thực thể tách rời nhau.</li>
-                    </ul>
-                    <h6>b) Cuộc cách mạng trong khoa học tự nhiên và sự phá sản của các quan điểm duy vật siêu hình về vật chất</h6>
-                    <p>Cuối thế kỷ XIX, đầu thế kỷ XX, các phát minh vật lý như tia X (1895), hiện tượng phóng xạ (1896), điện tử (1897), sự thay đổi của khối lượng theo vận tốc (1901), thuyết tương đối (1905, 1916) đã chứng tỏ nguyên tử không phải là phần tử nhỏ nhất, bất biến. Điều này đã làm phá sản quan niệm siêu hình về vật chất, dẫn đến cuộc khủng hoảng thế giới quan. Nhiều nhà khoa học và triết học đã hoang mang, cho rằng "vật chất tiêu tan", trượt từ chủ nghĩa duy vật máy móc sang chủ nghĩa tương đối rồi rơi vào chủ nghĩa duy tâm.</p>
+                    <h5>1. Vật chất và phương thức tồn tại của vật chất</h5>
+                    <h6>a) Quan niệm của chủ nghĩa duy tâm và chủ nghĩa duy vật trước C. Mác về phạm trù vật chất</h6>
+                    <p><b>Chủ nghĩa duy tâm</b> phủ nhận đặc trưng “tự thân tồn tại” của sự vật. Chủ nghĩa duy tâm khách quan thừa nhận sự tồn tại của giới tự nhiên nhưng cho rằng nó là sự “tha hóa” của “tinh thần thế giới”. Chủ nghĩa duy tâm chủ quan cho rằng sự vật chỉ là phức hợp các cảm giác.</p>
+                    <p><b>Chủ nghĩa duy vật thời cổ đại (chất phác)</b> quy vật chất về một hay một vài dạng cụ thể, cảm tính như nước (Thales), lửa (Heraclitus), không khí (Anaximenes) ở phương Tây; hay Tứ đại (đất, nước, lửa, gió), Âm-Dương, Ngũ hành (Kim, Mộc, Thủy, Hỏa, Thổ) ở phương Đông. Một bước tiến quan trọng là thuyết nguyên tử của Leucippus và Democritos cho rằng vật chất là những hạt nhỏ nhất, không thể phân chia.</p>
+                    <p><b>Chủ nghĩa duy vật thế kỷ XVII-XVIII (siêu hình, máy móc)</b> do ảnh hưởng của cơ học cổ điển, thường đồng nhất vật chất với khối lượng, coi các định luật cơ học là tuyệt đối, tách rời vật chất khỏi vận động, không gian và thời gian.</p>
                     
-                    <h6>c) Quan niệm của triết học Mác - Lênin về vật chất</h6>
-                    <p>Để khắc phục cuộc khủng hoảng, V.I. Lênin, trên cơ sở tổng kết các thành tựu khoa học và kế thừa tư tưởng của C.Mác và Ph.Ăngghen, đã đưa ra định nghĩa kinh điển về vật chất:</p>
-                    <p class="font-bold text-center bg-gray-100 p-4 rounded-lg">"Vật chất là một <span class="tooltip">phạm trù triết học<span class="tooltip-text">Là khái niệm chung nhất, phản ánh những thuộc tính, mối liên hệ cơ bản và phổ biến nhất của các sự vật, hiện tượng.</span></span> dùng để chỉ <span class="tooltip">thực tại khách quan<span class="tooltip-text">Là tất cả những gì tồn tại bên ngoài, độc lập với ý thức của con người.</span></span> được đem lại cho con người trong cảm giác, được cảm giác của chúng ta chép lại, chụp lại, phản ánh, và tồn tại không lệ thuộc vào cảm giác".</p>
-                    <p><b>Phân tích định nghĩa:</b></p>
-                    <ul>
-                        <li><b>Vật chất là thực tại khách quan:</b> Đây là thuộc tính cơ bản nhất của vật chất, là cái tồn tại hiện thực bên ngoài ý thức và không lệ thuộc vào ý thức.</li>
-                        <li><b>Vật chất là cái gây nên cảm giác ở con người khi tác động vào giác quan:</b> Vật chất luôn tồn tại dưới dạng các thực thể cụ thể, khi tác động vào giác quan sẽ đem lại cho con người cảm giác.</li>
-                        <li><b>Vật chất là cái mà ý thức chẳng qua chỉ là sự phản ánh của nó:</b> Ý thức là cái có sau, là sự phản ánh của vật chất. Điều này khẳng định con người có thể nhận thức được thế giới.</li>
-                    </ul>
-                    <p>Định nghĩa này đã giải quyết triệt để hai mặt vấn đề cơ bản của triết học, cung cấp nguyên tắc thế giới quan và phương pháp luận khoa học, là cơ sở cho sự thống nhất giữa CNDV biện chứng và CNDV lịch sử.</p>
+                    <h6>b) Cuộc cách mạng trong khoa học tự nhiên cuối thế kỷ XIX, đầu thế kỷ XX và sự phá sản của các quan điểm duy vật siêu hình về vật chất</h6>
+                    <p>Các phát minh như tia X (1895), hiện tượng phóng xạ (1896), điện tử (1897), sự thay đổi khối lượng của điện tử theo vận tốc (1901), thuyết tương đối (1905, 1916)... đã chứng minh rằng nguyên tử không phải là bất biến và không thể phân chia. Điều này gây ra một cuộc khủng hoảng trong vật lý học. Lợi dụng tình hình này, nhiều nhà khoa học và triết học đã hoang mang, cho rằng “vật chất tiêu tan”, và trượt sang lập trường duy tâm.</p>
+                    <p>V.I. Lênin đã chỉ ra thực chất của cuộc khủng hoảng này là sự khủng hoảng về thế giới quan và phương pháp luận. Ông khẳng định rằng vật chất không tiêu tan, mà chỉ có giới hạn hiểu biết của con người về vật chất là thay đổi. Con đường để thoát khỏi khủng hoảng là thay thế chủ nghĩa duy vật siêu hình bằng chủ nghĩa duy vật biện chứng.</p>
 
-                    <h6>d) Phương thức và hình thức tồn tại của vật chất</h6>
+                    <h6>c) Quan niệm của triết học Mác - Lênin về vật chất</h6>
+                    <p>V.I. Lênin đã đưa ra định nghĩa kinh điển về vật chất trong tác phẩm "Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán":</p>
+                    <p class="font-bold text-center bg-gray-100 p-4 rounded-lg">“Vật chất là một <span class="tooltip">phạm trù triết học<span class="tooltip-text">Là khái niệm chung nhất, phản ánh những thuộc tính, mối liên hệ cơ bản và phổ biến nhất của các sự vật, hiện tượng.</span></span> dùng để chỉ <span class="tooltip">thực tại khách quan<span class="tooltip-text">Là tất cả những gì tồn tại bên ngoài, độc lập với ý thức của con người.</span></span> được đem lại cho con người trong cảm giác, được cảm giác của chúng ta chép lại, chụp lại, phản ánh, và tồn tại không lệ thuộc vào cảm giác.”</p>
+                    <p><b>Nội dung cơ bản của định nghĩa:</b></p>
                     <ul>
-                        <li><b>Vận động:</b> Là phương thức tồn tại của vật chất. Ph.Ăngghen định nghĩa vận động là mọi sự biến đổi nói chung. Vận động là thuộc tính cố hữu của vật chất, là tự thân vận động. Vận động là tuyệt đối, vĩnh viễn, không thể tạo ra và không bị tiêu diệt. <b>Đứng im</b> chỉ là tương đối, tạm thời, là một trạng thái đặc biệt của vận động (vận động trong thế cân bằng). Các hình thức vận động cơ bản từ thấp đến cao gồm: cơ học, vật lý, hóa học, sinh học và xã hội.</li>
-                        <li><b>Không gian, thời gian:</b> Là những hình thức tồn tại của vật chất. Không gian là hình thức tồn tại của vật chất xét về mặt quảng tính, sự cùng tồn tại, trật tự, kết cấu. Thời gian là hình thức tồn tại của vật chất xét về mặt độ dài diễn biến, sự kế tiếp của các quá trình. Chúng tồn tại khách quan, vĩnh cửu, vô tận và gắn liền không thể tách rời với vật chất vận động.</li>
+                        <li><b>Thứ nhất,</b> vật chất là thực tại khách quan - cái tồn tại hiện thực bên ngoài ý thức và không lệ thuộc vào ý thức. Đây là thuộc tính cơ bản nhất.</li>
+                        <li><b>Thứ hai,</b> vật chất là cái mà khi tác động vào các giác quan con người thì đem lại cho con người cảm giác. Vật chất là nguồn gốc của cảm giác, của ý thức.</li>
+                        <li><b>Thứ ba,</b> vật chất là cái mà ý thức chẳng qua chỉ là sự phản ánh của nó. Điều này khẳng định con người có khả năng nhận thức được thế giới vật chất.</li>
                     </ul>
+                    <p><b>Ý nghĩa phương pháp luận:</b> Định nghĩa này giải quyết triệt để hai mặt của vấn đề cơ bản của triết học, cung cấp cơ sở để đấu tranh chống chủ nghĩa duy tâm, thuyết bất khả tri; định hướng cho khoa học phát triển; và là nền tảng cho việc xây dựng quan điểm duy vật về xã hội.</p>
+
+                    <h6>d) Phương thức tồn tại của vật chất</h6>
+                    <p><b>Vận động:</b> Là phương thức tồn tại của vật chất. Vận động là mọi sự biến đổi nói chung. Vận động là tuyệt đối, vĩnh viễn, không thể tạo ra và không bị tiêu diệt. <b>Đứng im</b> chỉ là tương đối, là một trạng thái đặc biệt của vận động (vận động trong cân bằng, sự vật chưa thay đổi căn bản về chất). Có 5 hình thức vận động cơ bản: cơ học, vật lý, hóa học, sinh học và xã hội. Các hình thức vận động cao nảy sinh trên cơ sở các hình thức vận động thấp hơn và bao hàm chúng, nhưng không quy về chúng.</p>
+                    <p><b>Không gian và thời gian:</b> Là những hình thức tồn tại của vật chất. Không gian là hình thức tồn tại của vật chất xét về mặt quảng tính, sự cùng tồn tại, trật tự, kết cấu. Thời gian là hình thức tồn tại của vật chất vận động xét về mặt độ dài diễn biến, sự kế tiếp của các quá trình. Chúng tồn tại khách quan, vĩnh cửu, vô tận và gắn liền không thể tách rời với vật chất.</p>
 
                      <h6>đ) Tính thống nhất vật chất của thế giới</h6>
-                    <p>Chủ nghĩa duy vật biện chứng khẳng định: Bản chất của thế giới là vật chất, thế giới thống nhất ở tính vật chất của nó. Điều này được thể hiện ở ba điểm cơ bản:</p>
+                    <p>Chủ nghĩa duy vật biện chứng khẳng định: Bản chất của thế giới là vật chất, thế giới thống nhất ở tính vật chất của nó. Điều đó được thể hiện ở những điểm sau:</p>
                     <ul>
-                        <li>Một là, chỉ có một thế giới duy nhất là thế giới vật chất. Thế giới vật chất tồn tại khách quan, có trước, độc lập với ý thức con người.</li>
-                        <li>Hai là, mọi bộ phận của thế giới có mối quan hệ vật chất thống nhất với nhau, đều là những dạng cụ thể của vật chất, cùng chịu sự chi phối của những quy luật khách quan, phổ biến.</li>
-                        <li>Ba là, thế giới vật chất không do ai sinh ra và cũng không tự mất đi, tồn tại vĩnh viễn, vô hạn và vô tận. Trong thế giới, các sự vật, hiện tượng luôn vận động, biến đổi, chuyển hóa lẫn nhau.</li>
+                        <li>Chỉ có một thế giới duy nhất và thống nhất là thế giới vật chất, tồn tại khách quan.</li>
+                        <li>Mọi bộ phận của thế giới, từ tự nhiên đến xã hội, đều là những dạng cụ thể của vật chất, là sản phẩm của vật chất, cùng chịu sự chi phối của những quy luật khách quan, phổ biến của thế giới vật chất.</li>
+                        <li>Thế giới vật chất không do ai sinh ra và cũng không tự mất đi, tồn tại vĩnh viễn, vô hạn và vô tận, luôn vận động và chuyển hóa lẫn nhau.</li>
                     </ul>
                     
                     <h5>2. Nguồn gốc, bản chất và kết cấu của ý thức</h5>
                     <h6>a) Nguồn gốc của ý thức</h6>
-                    <p>Dựa trên thành tựu khoa học, CNDVBC khẳng định ý thức có nguồn gốc tự nhiên và nguồn gốc xã hội.</p>
                     <ul>
-                        <li><b>Nguồn gốc tự nhiên:</b> Là điều kiện cần, bao gồm <b>bộ óc người</b> (khí quan vật chất của ý thức) và <b>thuộc tính phản ánh của thế giới vật chất</b>. Phản ánh là thuộc tính chung của mọi dạng vật chất, phát triển từ thấp đến cao: phản ánh vật lý, hóa học (ở giới vô sinh) &rarr; phản ánh sinh học (kích thích, cảm ứng, phản xạ ở giới hữu sinh) &rarr; phản ánh tâm lý (ở động vật bậc cao) &rarr; phản ánh ý thức (chỉ có ở con người).</li>
-                        <li><b>Nguồn gốc xã hội:</b> Là điều kiện đủ, quyết định trực tiếp sự ra đời của ý thức, bao gồm <b>lao động</b> và <b>ngôn ngữ</b>. Lao động là quá trình con người cải tạo giới tự nhiên, buộc con người phải tư duy. Ngôn ngữ (tiếng nói, chữ viết) nảy sinh từ lao động và cùng phát triển với lao động, là "vỏ vật chất của tư duy", là phương tiện để giao tiếp, trao đổi tư tưởng và khái quát hóa.</li>
+                        <li><b>Nguồn gốc tự nhiên (điều kiện cần):</b> Bao gồm bộ óc người và thuộc tính phản ánh của thế giới vật chất. Phản ánh là thuộc tính chung của mọi dạng vật chất, phát triển từ thấp đến cao (phản ánh vật lý, hóa học &rarr; phản ánh sinh học &rarr; phản ánh tâm lý &rarr; ý thức).</li>
+                        <li><b>Nguồn gốc xã hội (điều kiện đủ):</b> Là <b>lao động</b> và <b>ngôn ngữ</b>. Lao động là quá trình con người cải tạo giới tự nhiên, từ đó hình thành nên ý thức. Ngôn ngữ (tiếng nói, chữ viết) là hệ thống tín hiệu vật chất mang nội dung ý thức, là "vỏ vật chất của tư duy", là phương tiện để giao tiếp và tư duy. Nguồn gốc xã hội là yếu tố quyết định trực tiếp sự ra đời của ý thức.</li>
                     </ul>
-                    <h6>b) Bản chất và kết cấu của ý thức</h6>
-                    <p><b>Bản chất của ý thức:</b> Ý thức là hình ảnh chủ quan của thế giới khách quan, là quá trình phản ánh tích cực, sáng tạo hiện thực khách quan của óc người.</p>
+
+                    <h6>b) Bản chất của ý thức</h6>
+                    <p>Bản chất của ý thức là <b>hình ảnh chủ quan của thế giới khách quan</b>, là quá trình <b>phản ánh tích cực, sáng tạo</b> hiện thực khách quan của óc người. </p>
                     <ul>
-                        <li><b>Ý thức là hình ảnh chủ quan của thế giới khách quan:</b> Nội dung của ý thức là khách quan (do thế giới vật chất quy định), nhưng hình thức phản ánh là chủ quan (phụ thuộc vào chủ thể phản ánh).</li>
-                        <li><b>Ý thức là sự phản ánh tích cực, sáng tạo:</b> Ý thức không phải là sự sao chép thụ động mà là một quá trình "sáng tạo lại" hiện thực, có định hướng, chọn lọc và mục đích. Sáng tạo là đặc trưng bản chất nhất của ý thức.</li>
-                        <li><b>Ý thức mang bản chất lịch sử - xã hội:</b> Ý thức là sản phẩm xã hội, hình thành và phát triển gắn liền với hoạt động thực tiễn xã hội.</li>
+                        <li><b>Tính phản ánh:</b> Nội dung của ý thức là do thế giới khách quan quy định. Ý thức là cái bị quyết định, vật chất là cái quyết định.</li>
+                        <li><b>Tính chủ quan:</b> Ý thức là hình ảnh về thế giới khách quan nhưng nó không còn y nguyên như thế giới khách quan mà đã được cải biến thông qua lăng kính chủ quan của con người (tâm lý, tri thức, kinh nghiệm...).</li>
+                        <li><b>Tính sáng tạo và tích cực:</b> Ý thức không phải là sự sao chép thụ động mà là một quá trình phản ánh năng động, sáng tạo. Sáng tạo là đặc trưng bản chất nhất của ý thức.</li>
+                        <li><b>Tính xã hội:</b> Ý thức là một sản phẩm xã hội, được hình thành, phát triển gắn liền với hoạt động thực tiễn xã hội.</li>
                     </ul>
-                    <p><b>Kết cấu của ý thức:</b> Ý thức có kết cấu phức tạp.</p>
+
+                    <h6>c) Kết cấu của ý thức</h6>
                     <ul>
-                        <li><b>Theo các lớp cấu trúc (chiều ngang):</b> Bao gồm các yếu tố cơ bản như <b>tri thức</b> (yếu tố cốt lõi, phương thức tồn tại của ý thức), <b>tình cảm</b> (thái độ đối với đối tượng phản ánh), <b>niềm tin</b> (sự hòa quyện tri thức và tình cảm), và <b>ý chí</b> (năng lực vượt khó để đạt mục đích).</li>
-                        <li><b>Theo các cấp độ (chiều dọc):</b> Bao gồm các cấp độ như <b>tự ý thức</b> (ý thức về bản thân), <b>tiềm thức</b> (những tri thức đã thành bản năng, kỹ năng), và <b>vô thức</b> (những hiện tượng tâm lý không do lý trí điều khiển như bản năng, giấc mơ...).</li>
+                        <li><b>Theo các lớp cấu trúc (chiều ngang):</b> Ý thức bao gồm các yếu tố cơ bản như: <b>tri thức</b> (yếu tố cốt lõi), <b>tình cảm</b> (thái độ đối với đối tượng phản ánh), <b>niềm tin</b> (sự hòa quyện tri thức và tình cảm), và <b>ý chí</b> (năng lực thực hiện mục tiêu).</li>
+                        <li><b>Theo các cấp độ (chiều sâu):</b> Ý thức bao gồm <b>tự ý thức</b> (ý thức về bản thân), <b>tiềm thức</b> (những tri thức đã thành bản năng, kỹ năng), và <b>vô thức</b> (hiện tượng tâm lý không do lý trí điều khiển như bản năng, giấc mơ...).</li>
                     </ul>
-                    <p>Vấn đề "trí tuệ nhân tạo": Dù máy móc có hiện đại đến đâu cũng không thể có ý thức như con người vì nó không phải là một thực thể xã hội, không có hoạt động thực tiễn và cảm xúc. Nó chỉ là một quá trình vật lý được con người lập trình.</p>
+                    <p><b>Vấn đề "trí tuệ nhân tạo":</b> Dù máy móc có thể thực hiện một số thao tác của tư duy con người, nó vẫn là sản phẩm do con người tạo ra, không có ý thức theo đúng nghĩa vì nó thiếu nguồn gốc xã hội và bản chất xã hội.</p>
 
                     <h5>3. Mối quan hệ giữa vật chất và ý thức</h5>
-                     <p>Theo quan điểm của chủ nghĩa duy vật biện chứng, vật chất và ý thức tồn tại trong mối quan hệ biện chứng, thống nhất với nhau, trong đó vật chất quyết định ý thức, còn ý thức có tính độc lập tương đối và tác động trở lại mạnh mẽ đối với vật chất.</p>
+                     <p>Theo quan điểm của triết học Mác - Lênin, vật chất và ý thức có mối quan hệ biện chứng, trong đó vật chất quyết định ý thức, còn ý thức có tính độc lập tương đối và tác động tích cực trở lại vật chất.</p>
                      <ul>
-                        <li><b>Vai trò quyết định của vật chất đối với ý thức:</b> Vật chất quyết định nguồn gốc của ý thức (sinh ra ý thức); quyết định nội dung của ý thức (ý thức là sự phản ánh thế giới vật chất); quyết định bản chất của ý thức (bản chất của ý thức là sự phản ánh sáng tạo thông qua thực tiễn - hoạt động vật chất); và quyết định sự vận động, phát triển của ý thức (vật chất thay đổi thì ý thức cũng phải thay đổi theo).</li>
+                        <li><b>Vai trò quyết định của vật chất đối với ý thức:</b>
+                            <ul>
+                                <li>Vật chất quyết định <b>nguồn gốc</b> của ý thức (vật chất sinh ra ý thức).</li>
+                                <li>Vật chất quyết định <b>nội dung</b> của ý thức (ý thức phản ánh thế giới vật chất).</li>
+                                <li>Vật chất quyết định <b>bản chất</b> của ý thức (ý thức là sự phản ánh sáng tạo thông qua thực tiễn).</li>
+                                <li>Vật chất quyết định sự <b>vận động, phát triển</b> của ý thức (tồn tại xã hội thay đổi thì ý thức xã hội cũng thay đổi theo).</li>
+                            </ul>
+                        </li>
                         <li><b>Sự tác động trở lại của ý thức đối với vật chất:</b>
                             <ul>
-                                <li>Ý thức có tính độc lập tương đối, khi đã ra đời thì có "đời sống" riêng, có quy luật vận động riêng, không lệ thuộc một cách máy móc vào vật chất. Nó thường thay đổi chậm hơn so với sự biến đổi của thế giới vật chất.</li>
-                                <li>Sự tác động của ý thức đối với vật chất phải thông qua hoạt động thực tiễn của con người. Tự bản thân ý thức không thể biến đổi được hiện thực.</li>
-                                <li>Vai trò của ý thức thể hiện ở chỗ nó chỉ đạo hoạt động của con người. Nếu ý thức phản ánh đúng hiện thực, nó sẽ thúc đẩy hoạt động thực tiễn thành công (vai trò tích cực). Ngược lại, nếu ý thức phản ánh sai, nó sẽ kìm hãm, dẫn đến thất bại (vai trò tiêu cực).</li>
-                                <li>Xã hội càng phát triển thì vai trò của ý thức ngày càng to lớn, đặc biệt trong thời đại kinh tế tri thức.</li>
+                                <li>Ý thức có <b>tính độc lập tương đối</b>, có quy luật vận động, phát triển riêng, không lệ thuộc một cách máy móc vào vật chất (thường lạc hậu hơn).</li>
+                                <li>Sự tác động của ý thức đối với vật chất phải thông qua <b>hoạt động thực tiễn</b> của con người.</li>
+                                <li>Ý thức <b>chỉ đạo hoạt động</b> của con người. Nếu phản ánh đúng hiện thực, nó sẽ thúc đẩy thực tiễn; nếu phản ánh sai, nó sẽ kìm hãm thực tiễn.</li>
+                                <li>Xã hội càng phát triển thì vai trò của ý thức, tri thức khoa học ngày càng to lớn.</li>
                             </ul>
                         </li>
                     </ul>
-                    <p><b>Ý nghĩa phương pháp luận:</b> Từ mối quan hệ này, rút ra nguyên tắc phương pháp luận là tôn trọng tính khách quan kết hợp với phát huy tính năng động chủ quan. Mọi hoạt động nhận thức và thực tiễn phải xuất phát từ thực tế khách quan, tôn trọng quy luật khách quan, đồng thời phải phát huy vai trò của ý thức, của nhân tố con người, chống tư tưởng thụ động, ỷ lại hoặc bệnh chủ quan duy ý chí.</p>
+                    <p><b>Ý nghĩa phương pháp luận:</b> Từ mối quan hệ này rút ra nguyên tắc <b>tôn trọng tính khách quan kết hợp với phát huy tính năng động chủ quan</b>. Mọi hoạt động nhận thức và thực tiễn phải xuất phát từ thực tế khách quan, đồng thời phải phát huy vai trò của ý thức, của nhân tố con người.</p>
 
                     <h4>II. Phép biện chứng Duy vật</h4>
                     <h5>1. Hai loại hình biện chứng và phép biện chứng duy vật</h5>
-                    <p><b>Biện chứng</b> được hiểu theo hai nghĩa: <b>Biện chứng khách quan</b> là biện chứng của bản thân thế giới vật chất, tồn tại độc lập với ý thức. <b>Biện chứng chủ quan</b> (hay phép biện chứng) là sự phản ánh biện chứng khách quan vào đầu óc con người, là học thuyết nghiên cứu, khái quát biện chứng của thế giới thành các nguyên lý, quy luật khoa học.</p>
-                    <p><b>Phép biện chứng duy vật</b> là hình thức phát triển cao nhất của phép biện chứng. Đặc điểm của nó là sự thống nhất hữu cơ giữa thế giới quan duy vật và phương pháp luận biện chứng. Vai trò của nó là phương pháp luận chung nhất cho hoạt động nhận thức và thực tiễn.</p>
+                    <p><b>Biện chứng khách quan</b> là biện chứng của bản thân thế giới vật chất, tồn tại độc lập với ý thức con người. <b>Biện chứng chủ quan</b> (phép biện chứng) là sự phản ánh biện chứng khách quan vào trong tư duy con người, là học thuyết về sự liên hệ, vận động, phát triển.</p>
+                    <p><b>Phép biện chứng duy vật</b> là học thuyết về mối liên hệ phổ biến và về sự phát triển dưới hình thức hoàn bị nhất; là khoa học về những quy luật phổ biến của sự vận động, phát triển của tự nhiên, xã hội và tư duy. Nó là sự thống nhất hữu cơ giữa thế giới quan duy vật và phương pháp luận biện chứng.</p>
                     
                     <h5>2. Nội dung của phép biện chứng duy vật</h5>
                     <h6>a) Hai nguyên lý của phép biện chứng duy vật</h6>
                     <ul>
                         <li><b>Nguyên lý về mối liên hệ phổ biến:</b>
-                            <ul>
-                                <li><b>Nội dung:</b> Tất cả mọi sự vật, hiện tượng cũng như thế giới, bao giờ cũng tồn tại trong mối liên hệ phổ biến, quy định, ràng buộc lẫn nhau, không có sự vật nào tồn tại cô lập tuyệt đối.</li>
-                                <li><b>Tính chất:</b> Mối liên hệ có tính khách quan (vốn có của sự vật), tính phổ biến (diễn ra ở mọi lĩnh vực) và tính đa dạng, phong phú (liên hệ bên trong/bên ngoài, cơ bản/không cơ bản, chủ yếu/thứ yếu...).</li>
-                                <li><b>Ý nghĩa phương pháp luận:</b> Rút ra <b>quan điểm toàn diện</b>. Khi xem xét sự vật phải đặt nó trong tổng thể các mối liên hệ, xem xét tất cả các mặt, các mối liên hệ và "quan hệ gián tiếp" của nó, tránh quan điểm phiến diện, một chiều, chiết trung, ngụy biện.</li>
-                            </ul>
+                            <p><b>Nội dung:</b> Các sự vật, hiện tượng và quá trình khác nhau vừa tồn tại độc lập, vừa liên hệ, quy định và chuyển hóa lẫn nhau. Các mối liên hệ này có tính khách quan, phổ biến và đa dạng, phong phú.</p>
+                            <p><b>Ý nghĩa phương pháp luận:</b> Rút ra <b>quan điểm toàn diện</b>, yêu cầu khi nhận thức sự vật phải xem xét nó trong tổng thể các mối liên hệ, tránh quan điểm phiến diện, một chiều, chiết trung, ngụy biện.</p>
                         </li>
                         <li><b>Nguyên lý về sự phát triển:</b>
-                            <ul>
-                                <li><b>Nội dung:</b> Phát triển là quá trình vận động từ thấp đến cao, từ kém hoàn thiện đến hoàn thiện hơn, từ chất cũ đến chất mới ở trình độ cao hơn. Nguồn gốc của sự phát triển nằm trong chính bản thân sự vật (giải quyết mâu thuẫn nội tại).</li>
-                                <li><b>Tính chất:</b> Phát triển có tính khách quan (nguồn gốc bên trong sự vật), tính phổ biến (diễn ra ở mọi lĩnh vực), tính kế thừa (cái mới ra đời từ cái cũ, giữ lại yếu tố tích cực), và tính đa dạng, phong phú.</li>
-                                <li><b>Ý nghĩa phương pháp luận:</b> Rút ra <b>quan điểm phát triển</b>. Khi nghiên cứu, cần đặt đối tượng vào sự vận động, biến đổi để không chỉ nhận thức nó ở trạng thái hiện tại mà còn dự báo được khuynh hướng phát triển trong tương lai; phải sớm phát hiện và ủng hộ cái mới, chống lại quan điểm bảo thủ, trì trệ.</li>
-                            </ul>
+                            <p><b>Nội dung:</b> Phát triển là quá trình vận động theo khuynh hướng đi lên từ thấp đến cao, từ đơn giản đến phức tạp, từ kém hoàn thiện đến hoàn thiện hơn. Nguồn gốc của sự phát triển nằm ngay trong bản thân sự vật (giải quyết mâu thuẫn). Sự phát triển có các tính chất: khách quan, phổ biến, đa dạng, phong phú và kế thừa.</p>
+                            <p><b>Ý nghĩa phương pháp luận:</b> Rút ra <b>quan điểm phát triển</b>, yêu cầu khi xem xét sự vật phải đặt nó trong sự vận động, biến đổi; phải ủng hộ cái mới, cái tiến bộ; và phải biết kế thừa các yếu tố tích cực từ cái cũ.</p>
                         </li>
                     </ul>
                     
                      <h6>b) Các cặp phạm trù cơ bản của phép biện chứng duy vật</h6>
-                    <p>Phạm trù triết học là những khái niệm chung nhất, phản ánh những thuộc tính và mối liên hệ vốn có ở tất cả các đối tượng hiện thực. 6 cặp phạm trù cơ bản:</p>
+                    <p>Phạm trù là những khái niệm chung nhất phản ánh những mặt, những thuộc tính, những mối liên hệ cơ bản và phổ biến nhất của thế giới. Gồm 6 cặp phạm trù cơ bản:</p>
                     <ul>
-                        <li><b>Cái riêng - Cái chung - Cái đơn nhất:</b> Cái riêng là một sự vật, hiện tượng nhất định. Cái chung là những mặt, thuộc tính lặp lại ở nhiều cái riêng. Cái đơn nhất là đặc điểm chỉ có ở một cái riêng. Cái chung chỉ tồn tại trong cái riêng, thông qua cái riêng.</li>
-                        <li><b>Nguyên nhân - Kết quả:</b> Nguyên nhân là sự tác động lẫn nhau gây nên biến đổi. Kết quả là những biến đổi xuất hiện do nguyên nhân gây ra. Mối liên hệ nhân quả có tính khách quan, phổ biến, tất yếu.</li>
-                        <li><b>Tất nhiên - Ngẫu nhiên:</b> Tất nhiên là cái do nguyên nhân cơ bản, bên trong quy định, phải xảy ra. Ngẫu nhiên là cái do nguyên nhân, hoàn cảnh bên ngoài quy định, có thể xảy ra hoặc không. Tất nhiên vạch đường đi cho mình thông qua vô số ngẫu nhiên.</li>
-                        <li><b>Nội dung - Hình thức:</b> Nội dung là tổng thể các mặt, yếu tố tạo nên sự vật. Hình thức là phương thức tồn tại, biểu hiện của nội dung. Nội dung quyết định hình thức.</li>
-                        <li><b>Bản chất - Hiện tượng:</b> Bản chất là tổng thể các mối liên hệ tất nhiên, tương đối ổn định bên trong. Hiện tượng là sự biểu hiện ra bên ngoài của bản chất.</li>
-                        <li><b>Khả năng - Hiện thực:</b> Khả năng là cái hiện chưa xảy ra nhưng sẽ xảy ra khi có điều kiện. Hiện thực là cái đang có, đang tồn tại. Quá trình phát triển là sự chuyển hóa từ khả năng thành hiện thực.</li>
+                        <li><b>Cái riêng và Cái chung:</b> Cái riêng là phạm trù chỉ một sự vật, hiện tượng nhất định. Cái chung chỉ những mặt, thuộc tính lặp lại ở nhiều cái riêng. Cái đơn nhất chỉ những đặc điểm chỉ có ở một cái riêng.</li>
+                        <li><b>Nguyên nhân và Kết quả:</b> Nguyên nhân là sự tác động lẫn nhau gây ra một biến đổi nhất định. Kết quả là những biến đổi do nguyên nhân đó tạo ra.</li>
+                        <li><b>Tất nhiên và Ngẫu nhiên:</b> Tất nhiên là cái do bản chất, nguyên nhân bên trong quyết định. Ngẫu nhiên là cái do nguyên nhân, hoàn cảnh bên ngoài quy định.</li>
+                        <li><b>Nội dung và Hình thức:</b> Nội dung là tổng thể tất cả các mặt, yếu tố tạo nên sự vật. Hình thức là phương thức tồn tại và biểu hiện của nội dung.</li>
+                        <li><b>Bản chất và Hiện tượng:</b> Bản chất là tổng hợp các mối liên hệ tất nhiên, tương đối ổn định bên trong. Hiện tượng là sự biểu hiện ra bên ngoài của bản chất.</li>
+                        <li><b>Khả năng và Hiện thực:</b> Khả năng là cái hiện chưa xảy ra nhưng sẽ xảy ra khi có điều kiện. Hiện thực là cái đang có, đang tồn tại thực sự.</li>
                     </ul>
 
                     <h6>c) Các quy luật cơ bản của phép biện chứng duy vật</h6>
-                     <p>Quy luật là mối liên hệ phổ biến, khách quan, bản chất, bền vững, tất yếu. Các quy luật của phép biện chứng là các quy luật phổ biến nhất.</p>
+                    <p>Quy luật là mối liên hệ bản chất, tất nhiên, phổ biến và lặp lại giữa các sự vật, hiện tượng.</p>
                      <table class="comparison-table">
                         <thead>
                             <tr>
@@ -580,34 +574,26 @@
                         <tbody>
                             <tr>
                                 <td><b>Quy luật chuyển hóa từ những thay đổi về lượng thành những thay đổi về chất và ngược lại (Lượng - Chất)</b></td>
-                                <td>Chỉ ra <b>cách thức, hình thức</b> của sự vận động và phát triển.</td>
-                                <td>Mọi đối tượng đều là sự thống nhất của hai mặt chất và lượng. Những sự thay đổi dần dần về lượng khi vượt quá giới hạn của <b>độ</b> sẽ dẫn đến sự thay đổi căn bản về chất thông qua <b>bước nhảy</b>. Chất mới ra đời lại tác động trở lại sự thay đổi của lượng.</td>
+                                <td>Chỉ ra <b>cách thức, hình thức</b> của sự phát triển.</td>
+                                <td>Mọi sự vật đều là sự thống nhất giữa chất và lượng. Sự thay đổi dần dần về lượng, khi tích lũy đến một giới hạn (độ), tại điểm nút sẽ dẫn đến sự thay đổi đột ngột, căn bản về chất thông qua bước nhảy.</td>
                             </tr>
                              <tr>
                                 <td><b>Quy luật thống nhất và đấu tranh của các mặt đối lập (Mâu thuẫn)</b></td>
-                                <td>Chỉ ra <b>nguồn gốc, động lực</b> của sự vận động và phát triển.</td>
-                                <td>Mọi đối tượng đều bao gồm những mặt, khuynh hướng đối lập nhau (mặt đối lập) tạo thành những mâu thuẫn. Sự <b>thống nhất</b> và <b>đấu tranh</b> giữa các mặt đối lập này là nguyên nhân, động lực bên trong của sự vận động, phát triển.</td>
+                                <td>Chỉ ra <b>nguồn gốc, động lực</b> của sự phát triển.</td>
+                                <td>Mọi sự vật, hiện tượng đều chứa đựng các mặt đối lập tạo thành mâu thuẫn. Sự thống nhất và đấu tranh của các mặt đối lập này chính là nguồn gốc, động lực bên trong của mọi sự vận động và phát triển.</td>
                             </tr>
                             <tr>
                                 <td><b>Quy luật phủ định của phủ định</b></td>
                                 <td>Chỉ ra <b>khuynh hướng, hình thái</b> của sự phát triển.</td>
-                                <td>Sự phát triển diễn ra thông qua các lần <b>phủ định biện chứng</b> (cái mới ra đời thay thế cái cũ, là tiền đề cho sự phát triển tiếp theo). Quy luật này phản ánh mối liên hệ, sự <b>kế thừa</b> giữa cái bị phủ định và cái phủ định, do vậy sự phát triển có tính chất tiến lên không theo đường thẳng mà theo đường <b>xoáy ốc</b>.</td>
+                                <td>Phát triển là một quá trình diễn ra thông qua các lần phủ định biện chứng. Cái mới ra đời thay thế cái cũ, nhưng có kế thừa những yếu tố tích cực của cái cũ. Quá trình phát triển có tính chu kỳ, dường như lặp lại cái ban đầu nhưng trên cơ sở cao hơn, theo hình "xoáy ốc".</td>
                             </tr>
                         </tbody>
                     </table>
 
                     <h4>III. Lý luận nhận thức</h4>
-                     <p>Lý luận nhận thức là một bộ phận của triết học, nghiên cứu bản chất của nhận thức, con đường để đạt chân lý, tiêu chuẩn của chân lý...</p>
-                     <h6>a) Thực tiễn và vai trò của thực tiễn đối với nhận thức</h6>
-                     <p><b>Thực tiễn</b> là toàn bộ những hoạt động vật chất-cảm tính, có tính lịch sử-xã hội của con người nhằm cải tạo tự nhiên và xã hội. Ba hình thức cơ bản: hoạt động sản xuất vật chất (quan trọng nhất), hoạt động chính trị - xã hội, và hoạt động thực nghiệm khoa học.</p>
-                     <p><b>Vai trò của thực tiễn đối với nhận thức:</b></p>
-                     <ul>
-                         <li>Thực tiễn là <b>cơ sở, động lực</b> của nhận thức: Nó cung cấp vật liệu, đề ra nhu cầu, nhiệm vụ và phương hướng cho nhận thức.</li>
-                         <li>Thực tiễn là <b>mục đích</b> của nhận thức: Nhận thức nhằm phục vụ, soi đường, dẫn dắt thực tiễn.</li>
-                         <li>Thực tiễn là <b>tiêu chuẩn của chân lý</b>: Chỉ có thực tiễn mới có thể vật chất hóa được tri thức, qua đó khẳng định chân lý hoặc phủ định sai lầm.</li>
-                     </ul>
-                     <h6>b) Các giai đoạn của quá trình nhận thức</h6>
-                     <p>V.I.Lênin khái quát con đường biện chứng của nhận thức: “Từ <b>trực quan sinh động</b> đến <b>tư duy trừu tượng</b>, và từ <b>tư duy trừu tượng</b> đến <b>thực tiễn</b>”.</p>
+                     <p>Lý luận nhận thức là một bộ phận của triết học, nghiên cứu bản chất, con đường, quy luật của quá trình nhận thức nhằm đạt tới chân lý.</p>
+                     <p><b>Thực tiễn</b> là toàn bộ hoạt động vật chất-cảm tính, có tính lịch sử-xã hội của con người nhằm cải tạo tự nhiên và xã hội. Thực tiễn có các hình thức cơ bản: sản xuất vật chất, hoạt động chính trị-xã hội, và thực nghiệm khoa học. Thực tiễn có vai trò là <b>cơ sở, động lực, mục đích</b> của nhận thức và là <b>tiêu chuẩn của chân lý</b>.</p>
+                     <p><b>Con đường biện chứng của quá trình nhận thức:</b> “Từ <b>trực quan sinh động</b> đến <b>tư duy trừu tượng</b>, và từ <b>tư duy trừu tượng</b> đến <b>thực tiễn</b>”.</p>
                     <table class="comparison-table">
                          <thead>
                             <tr>
@@ -617,34 +603,42 @@
                         </thead>
                          <tbody>
                             <tr>
-                                <td>Là giai đoạn đầu tiên, phản ánh <b>trực tiếp</b>, bề ngoài, cụ thể của sự vật qua các giác quan.</td>
-                                <td>Là giai đoạn sau, cao hơn, phản ánh <b>gián tiếp</b>, bản chất, quy luật, trừu tượng của sự vật.</td>
+                                <td>Là giai đoạn đầu, phản ánh <b>trực tiếp</b>, bề ngoài, cụ thể của sự vật.</td>
+                                <td>Là giai đoạn sau, cao hơn, phản ánh <b>gián tiếp</b>, bản chất, quy luật bên trong của sự vật.</td>
                             </tr>
                             <tr>
-                                <td>Các hình thức: <b>Cảm giác</b> (phản ánh thuộc tính riêng lẻ), <b>Tri giác</b> (tổng hợp nhiều cảm giác, cho hình ảnh trọn vẹn hơn), <b>Biểu tượng</b> (tái hiện hình ảnh trong óc khi sự vật không còn).</td>
-                                <td>Các hình thức: <b>Khái niệm</b> (phản ánh thuộc tính chung, bản chất), <b>Phán đoán</b> (liên kết các khái niệm để khẳng định/phủ định), <b>Suy lý (suy luận)</b> (liên kết các phán đoán để rút ra tri thức mới).</td>
+                                <td>Gồm các hình thức: <b>Cảm giác, Tri giác, Biểu tượng</b>.</td>
+                                <td>Gồm các hình thức: <b>Khái niệm, Phán đoán, Suy lý</b>.</td>
                             </tr>
                         </tbody>
                     </table>
-                     <p class="mt-4"><b>Chân lý</b> là tri thức phù hợp với hiện thực khách quan và được thực tiễn kiểm nghiệm. Chân lý có các tính chất: <b>tính khách quan</b>, <b>tính tương đối và tuyệt đối</b>, và <b>tính cụ thể</b>.</p>
+                     <p class="mt-4"><b>Chân lý</b> là tri thức phù hợp với hiện thực khách quan và được thực tiễn kiểm nghiệm. Chân lý có các tính chất: tính khách quan (nội dung không phụ thuộc vào ý chí chủ quan), tính tương đối (phản ánh đúng nhưng chưa đầy đủ), tính tuyệt đối (tổng số các chân lý tương đối), và tính cụ thể (gắn với điều kiện lịch sử cụ thể).</p>
                     
                     <div class="infographic">
-                        <h4 class="text-2xl font-bold mb-4">Con đường biện chứng của Nhận thức</h4>
+                        <h4 class="text-2xl font-bold mb-4">Infographic: Con đường biện chứng của Nhận thức</h4>
                         <svg width="100%" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
                             <defs>
                                 <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
                                     <path d="M 0 0 L 10 5 L 0 10 z" fill="#3498db" />
                                 </marker>
                             </defs>
+                            
+                            <!-- Box 1 -->
                             <rect x="50" y="85" width="200" height="80" rx="10" fill="#e74c3c" fill-opacity="0.8"/>
                             <text x="150" y="120" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">THỰC TIỄN (Cơ sở)</text>
                             <text x="150" y="140" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">(Sản xuất, Xã hội, Thí nghiệm)</text>
+
+                            <!-- Box 2 -->
                             <rect x="300" y="20" width="200" height="80" rx="10" fill="#f1c40f" fill-opacity="0.8"/>
                             <text x="400" y="55" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">TRỰC QUAN SINH ĐỘNG</text>
                             <text x="400" y="75" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">(Cảm giác, Tri giác)</text>
+
+                             <!-- Box 3 -->
                             <rect x="550" y="150" width="200" height="80" rx="10" fill="#2ecc71" fill-opacity="0.8"/>
                             <text x="650" y="185" font-family="Arial, sans-serif" font-size="18" fill="white" text-anchor="middle" font-weight="bold">TƯ DUY TRỪU TƯỢNG</text>
                             <text x="650" y="205" font-family="Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">(Khái niệm, Phán đoán)</text>
+
+                            <!-- Arrows -->
                             <path d="M 255 105 L 295 80" stroke="#3498db" stroke-width="3" marker-end="url(#arrow)"/>
                             <path d="M 505 50 L 545 160" stroke="#3498db" stroke-width="3" marker-end="url(#arrow)"/>
                             <path d="M 545 200 C 400 280, 250 180, 255 145" stroke="#3498db" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
@@ -662,12 +656,19 @@
                     <p>Chủ nghĩa duy vật lịch sử là sự vận dụng và mở rộng chủ nghĩa duy vật biện chứng vào việc nghiên cứu xã hội, làm sáng tỏ các quy luật vận động, phát triển của lịch sử loài người.</p>
 
                     <h4>I. Học thuyết Hình thái Kinh tế - Xã hội</h4>
-                    <p>Là một nội dung cơ bản của chủ nghĩa duy vật lịch sử, vạch ra những quy luật cơ bản của sự vận động, phát triển xã hội, là phương pháp luận khoa học để nhận thức, cải tạo xã hội.</p>
+                    <p>Học thuyết này là một nội dung cơ bản của chủ nghĩa duy vật lịch sử, vạch ra những quy luật cơ bản của sự vận động và phát triển xã hội, là phương pháp luận khoa học để nhận thức, cải tạo xã hội.</p>
                     
-                    <h5>1. Sản xuất vật chất và Phương thức sản xuất</h5>
-                    <p><b>Sản xuất xã hội</b> bao gồm 3 phương diện không tách rời: sản xuất vật chất, sản xuất tinh thần và sản xuất ra bản thân con người.</p>
-                    <p><b>Sản xuất vật chất</b> là quá trình con người sử dụng công cụ lao động tác động vào tự nhiên, cải biến chúng để tạo ra của cải xã hội. <b>Vai trò của sản xuất vật chất:</b> Nó là cơ sở của sự tồn tại và phát triển xã hội, là tiền đề trực tiếp tạo ra tư liệu sinh hoạt, là tiền đề của mọi hoạt động lịch sử, và là điều kiện chủ yếu sáng tạo ra bản thân con người.</p>
-                    <p><b>Phương thức sản xuất (PTSTS)</b> là cách thức con người tiến hành quá trình sản xuất vật chất ở những giai đoạn lịch sử nhất định. PTSTS là sự thống nhất giữa Lực lượng sản xuất và Quan hệ sản xuất.</p>
+                    <h5>1. Sản xuất vật chất là cơ sở của sự tồn tại và phát triển xã hội</h5>
+                    <p><b>Sản xuất vật chất</b> là quá trình con người sử dụng công cụ lao động tác động vào tự nhiên, cải biến chúng để tạo ra của cải xã hội nhằm thỏa mãn nhu cầu tồn tại và phát triển. Đây là hoạt động đặc trưng của con người.</p>
+                    <p>Vai trò của sản xuất vật chất:</p>
+                    <ul>
+                        <li>Là tiền đề trực tiếp tạo ra tư liệu sinh hoạt của con người.</li>
+                        <li>Là tiền đề của mọi hoạt động lịch sử của con người, hình thành nên các quan hệ xã hội.</li>
+                        <li>Là điều kiện chủ yếu sáng tạo ra bản thân con người (hình thành ngôn ngữ, tư duy, tình cảm...).</li>
+                    </ul>
+
+                    <h5>2. Biện chứng giữa lực lượng sản xuất và quan hệ sản xuất</h5>
+                     <p><b>Phương thức sản xuất</b> (PTSTS) là cách thức con người tiến hành quá trình sản xuất vật chất ở những giai đoạn lịch sử nhất định. PTSTS là sự thống nhất giữa Lực lượng sản xuất và Quan hệ sản xuất.</p>
                     <table class="comparison-table">
                         <thead>
                             <tr>
@@ -677,79 +678,79 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><b>Khái niệm:</b> Là sự kết hợp giữa người lao động với tư liệu sản xuất, tạo ra sức sản xuất và năng lực thực tiễn làm biến đổi tự nhiên.</td>
-                                <td><b>Khái niệm:</b> Là tổng hợp các quan hệ kinh tế - vật chất giữa người với người trong quá trình sản xuất.</td>
+                                <td><b>Nội dung:</b> Biểu hiện mối quan hệ giữa con người với tự nhiên. Là nội dung vật chất của sản xuất.</td>
+                                <td><b>Hình thức:</b> Biểu hiện mối quan hệ giữa người với người trong sản xuất. Là hình thức xã hội của sản xuất.</td>
                             </tr>
                              <tr>
-                                <td><b>Cấu trúc:</b> Người lao động (với tri thức, kỹ năng, là nhân tố hàng đầu) và Tư liệu sản xuất. Tư liệu sản xuất bao gồm đối tượng lao động và tư liệu lao động (trong đó công cụ lao động là yếu tố động nhất, cách mạng nhất).</td>
-                                <td><b>Cấu trúc:</b> Quan hệ sở hữu đối với tư liệu sản xuất (giữ vai trò quyết định), Quan hệ tổ chức - quản lý sản xuất, và Quan hệ phân phối sản phẩm lao động.</td>
+                                <td><b>Cấu trúc:</b> Người lao động (yếu tố hàng đầu) và Tư liệu sản xuất (công cụ lao động là yếu tố cách mạng nhất, là thước đo trình độ sản xuất).</td>
+                                <td><b>Cấu trúc:</b> Quan hệ sở hữu về tư liệu sản xuất (giữ vai trò quyết định), Quan hệ tổ chức - quản lý sản xuất, và Quan hệ phân phối sản phẩm lao động.</td>
+                            </tr>
+                            <tr>
+                                <td><b>Tính chất:</b> Năng động, cách mạng, luôn có xu hướng phát triển. Ngày nay, khoa học đã trở thành lực lượng sản xuất trực tiếp.</td>
+                                <td><b>Tính chất:</b> Tương đối ổn định, có xu hướng lạc hậu hơn so với sự phát triển của LLSX.</td>
                             </tr>
                         </tbody>
                     </table>
-                    
-                    <h5>2. Quy luật quan hệ sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất</h5>
-                    <p>Đây là quy luật cơ bản nhất của sự vận động, phát triển xã hội. Mối quan hệ giữa LLSX và QHSX là mối quan hệ biện chứng:</p>
-                     <ul>
-                        <li><b>Vai trò quyết định của LLSX đối với QHSX:</b> LLSX là nội dung, QHSX là hình thức. LLSX luôn vận động, phát triển. Sự phát triển của LLSX quyết định sự ra đời, nội dung và tính chất của QHSX.</li>
-                        <li><b>Sự tác động trở lại của QHSX đối với LLSX:</b> QHSX có tính độc lập tương đối. Nếu QHSX phù hợp với trình độ phát triển của LLSX, nó sẽ thúc đẩy LLSX phát triển. Nếu không phù hợp (lạc hậu hơn hoặc vượt trước một cách giả tạo), nó sẽ kìm hãm sự phát triển của LLSX.</li>
-                    </ul>
-                    <p>Sự vận động của mâu thuẫn giữa LLSX và QHSX (từ phù hợp đến không phù hợp, rồi đến sự phù hợp mới) là nguồn gốc của các cuộc <b>cách mạng xã hội</b>, dẫn đến sự thay thế các phương thức sản xuất trong lịch sử.</p>
+                    <p class="mt-4"><b>Quy luật quan hệ sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất:</b> Đây là quy luật cơ bản nhất của sự vận động, phát triển xã hội. LLSX quyết định sự ra đời, nội dung và tính chất của QHSX. Ngược lại, QHSX có thể thúc đẩy (khi phù hợp) hoặc kìm hãm (khi không phù hợp) sự phát triển của LLSX. Mâu thuẫn giữa LLSX tiên tiến và QHSX lỗi thời là nguồn gốc của các cuộc <b>cách mạng xã hội</b>.</p>
 
-                    <h5>3. Biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng</h5>
+                    <h5>3. Biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng của xã hội</h5>
                     <ul>
-                        <li><b><span class="tooltip">Cơ sở hạ tầng (CSHT)<span class="tooltip-text">Toàn bộ những quan hệ sản xuất của một xã hội hợp thành cơ cấu kinh tế của xã hội đó.</span></span>:</b> Là toàn bộ các quan hệ sản xuất, hợp thành cơ cấu kinh tế của xã hội. Cấu trúc gồm: QHSX thống trị, QHSX tàn dư, QHSX mầm mống.</li>
-                        <li><b><span class="tooltip">Kiến trúc thượng tầng (KTTT)<span class="tooltip-text">Toàn bộ những quan điểm, tư tưởng xã hội với những thiết chế xã hội tương ứng (nhà nước, đảng phái, giáo hội...) hình thành trên một cơ sở hạ tầng nhất định.</span></span>:</b> Là toàn bộ các quan điểm tư tưởng (chính trị, pháp quyền, đạo đức...) và các thiết chế xã hội tương ứng (nhà nước, đảng phái...). Trong đó, nhà nước là bộ phận có quyền lực mạnh nhất.</li>
-                        <li><b>Quy luật về mối quan hệ biện chứng:</b> CSHT quyết định KTTT (Cơ sở hạ tầng nào, kiến trúc thượng tầng ấy. CSHT thay đổi thì KTTT sớm hay muộn cũng thay đổi theo). Ngược lại, KTTT có tính độc lập tương đối, tác động mạnh mẽ trở lại CSHT. Nếu tác động cùng chiều sẽ thúc đẩy, ngược chiều sẽ kìm hãm kinh tế.</li>
+                        <li><b><span class="tooltip">Cơ sở hạ tầng (CSHT)<span class="tooltip-text">Toàn bộ những quan hệ sản xuất của một xã hội hợp thành cơ cấu kinh tế của xã hội đó.</span></span>:</b> Là toàn bộ các quan hệ sản xuất, hợp thành cơ cấu kinh tế của xã hội (bao gồm QHSX thống trị, tàn dư và mầm mống).</li>
+                        <li><b><span class="tooltip">Kiến trúc thượng tầng (KTTT)<span class="tooltip-text">Toàn bộ những quan điểm, tư tưởng xã hội với những thiết chế xã hội tương ứng (nhà nước, đảng phái, giáo hội...) hình thành trên một cơ sở hạ tầng nhất định.</span></span>:</b> Là toàn bộ các quan điểm, tư tưởng (chính trị, pháp quyền, đạo đức...) và các thiết chế xã hội tương ứng (nhà nước, đảng phái...). Trong đó, nhà nước là bộ phận có quyền lực mạnh nhất.</li>
+                        <li><b>Mối quan hệ biện chứng:</b> CSHT quyết định KTTT. Cơ sở kinh tế như thế nào thì kiến trúc thượng tầng như thế ấy. Khi CSHT thay đổi thì sớm hay muộn KTTT cũng thay đổi theo. Ngược lại, KTTT có tính độc lập tương đối, tác động mạnh mẽ trở lại CSHT. Nó có chức năng bảo vệ, củng cố và phát triển CSHT đã sinh ra nó.</li>
                     </ul>
                     
                     <h5>4. Sự phát triển các hình thái kinh tế - xã hội là một quá trình lịch sử - tự nhiên</h5>
-                     <p><b>Hình thái kinh tế - xã hội</b> là một phạm trù dùng để chỉ xã hội ở từng nấc thang lịch sử nhất định, với ba yếu tố cơ bản: LLSX, QHSX (CSHT), và KTTT.</p>
-                    <p>Lịch sử xã hội loài người là sự thay thế tuần tự của các hình thái kinh tế - xã hội, từ thấp đến cao: <b>Cộng sản nguyên thủy &rarr; Chiếm hữu nô lệ &rarr; Phong kiến &rarr; Tư bản chủ nghĩa &rarr; Cộng sản chủ nghĩa</b>. Sự vận động này tuân theo các quy luật khách quan, giống như một quá trình của tự nhiên. Tuy nhiên, quá trình lịch sử-tự nhiên này bao hàm cả sự phát triển tuần tự và sự phát triển "bỏ qua" một hay vài hình thái kinh tế - xã hội đối với một số quốc gia, dân tộc cụ thể.</p>
+                     <p><b>Hình thái kinh tế - xã hội (HTKT-XH)</b> là một phạm trù dùng để chỉ xã hội ở từng nấc thang lịch sử nhất định, với ba yếu tố cơ bản: Lực lượng sản xuất, Quan hệ sản xuất (CSHT) và Kiến trúc thượng tầng.</p>
+                    <p>Sự vận động của các quy luật khách quan (QHSX phù hợp LLSX; CSHT quyết định KTTT) làm cho lịch sử xã hội loài người là một tiến trình nối tiếp nhau từ thấp đến cao của các HTKT-XH: <b>Cộng sản nguyên thủy &rarr; Chiếm hữu nô lệ &rarr; Phong kiến &rarr; Tư bản chủ nghĩa &rarr; Cộng sản chủ nghĩa</b>. Đây là một quá trình lịch sử - tự nhiên, tuân theo quy luật khách quan, không phụ thuộc ý muốn chủ quan.</p>
+                    <p>Quá trình này bao hàm cả sự phát triển tuần tự và sự phát triển "bỏ qua" một hay vài hình thái kinh tế - xã hội (phát triển rút ngắn) đối với một số quốc gia, dân tộc cụ thể có điều kiện.</p>
                     
                     <h4>II. Giai cấp và Dân tộc</h4>
                     <h5>1. Giai cấp và đấu tranh giai cấp</h5>
-                    <p><b>Giai cấp:</b> Theo định nghĩa của Lênin, "giai cấp, là những tập đoàn người to lớn, khác nhau về địa vị của họ trong một hệ thống sản xuất xã hội nhất định trong lịch sử, về quan hệ của họ đối với những tư liệu sản xuất...". Nguồn gốc sâu xa của sự ra đời giai cấp là do sự phát triển của LLSX làm xuất hiện "của dư". Nguồn gốc trực tiếp là do sự xuất hiện của chế độ tư hữu về tư liệu sản xuất.</p>
-                    <p><b>Đấu tranh giai cấp:</b> Là cuộc đấu tranh của các tập đoàn người có lợi ích căn bản đối lập nhau. Đấu tranh giai cấp là tất yếu do sự đối lập về lợi ích. Thực chất là cuộc đấu tranh của quần chúng lao động bị áp bức chống lại giai cấp áp bức. Trong xã hội có giai cấp, đấu tranh giai cấp là động lực trực tiếp, quan trọng của lịch sử.</p>
-                    <p><b>Đấu tranh giai cấp của giai cấp vô sản:</b> Bao gồm 3 hình thức cơ bản: đấu tranh kinh tế, đấu tranh chính trị (hình thức cao nhất), và đấu tranh tư tưởng. Trong thời kỳ quá độ lên CNXH, đấu tranh giai cấp tiếp tục diễn ra dưới những nội dung và hình thức mới, gay go, phức tạp.</p>
+                    <h6>a) Giai cấp</h6>
+                    <p><b>Định nghĩa:</b> Giai cấp là những tập đoàn người to lớn, khác nhau về địa vị trong một hệ thống sản xuất xã hội nhất định trong lịch sử, về quan hệ của họ đối với những tư liệu sản xuất, về vai trò của họ trong tổ chức lao động xã hội, và do đó khác nhau về cách thức hưởng thụ phần của cải xã hội. Giai cấp là những tập đoàn người mà tập đoàn này có thể chiếm đoạt lao động của tập đoàn khác.</p>
+                    <p><b>Nguồn gốc:</b> Nguyên nhân sâu xa của sự ra đời giai cấp là do sự phát triển của LLSX dẫn đến sự xuất hiện của "của dư" tương đối. Nguyên nhân trực tiếp là do sự xuất hiện của chế độ tư hữu về tư liệu sản xuất.</p>
+                    <h6>b) Đấu tranh giai cấp</h6>
+                    <p><b>Thực chất:</b> Đấu tranh giai cấp là cuộc đấu tranh của các tập đoàn người có lợi ích căn bản đối lập nhau, là cuộc đấu tranh của quần chúng lao động bị áp bức chống lại giai cấp áp bức, bóc lột. Đấu tranh giai cấp là động lực trực tiếp, quan trọng của lịch sử trong các xã hội có đối kháng giai cấp. Đỉnh cao của nó là cách mạng xã hội.</p>
                     
                     <h5>2. Dân tộc</h5>
-                    <p>Trước khi hình thành dân tộc, loài người đã trải qua các hình thức cộng đồng: thị tộc &rarr; bộ lạc &rarr; bộ tộc.</p>
-                    <p><b>Dân tộc</b> là hình thức cộng đồng người phát triển cao nhất, ổn định, được hình thành trong lịch sử trên cơ sở một lãnh thổ, một ngôn ngữ, một nền kinh tế thống nhất, một nền văn hóa và tâm lý, tính cách bền vững, với một nhà nước và pháp luật thống nhất.</p>
+                    <h6>a) Các hình thức cộng đồng người trước khi hình thành dân tộc</h6>
+                    <p>Lịch sử xã hội loài người là lịch sử phát triển của các hình thức cộng đồng người từ thấp đến cao: <b>Thị tộc</b> (dựa trên quan hệ huyết thống) &rarr; <b>Bộ lạc</b> (liên kết nhiều thị tộc) &rarr; <b>Bộ tộc</b> (liên kết nhiều bộ lạc, hình thành khi có giai cấp).</p>
+                    <h6>b) Dân tộc - hình thức cộng đồng người phổ biến hiện nay</h6>
+                    <p><b>Dân tộc</b> là một cộng đồng người ổn định, được hình thành trong lịch sử trên cơ sở một lãnh thổ, một ngôn ngữ, một nền kinh tế thống nhất, một nền văn hóa và tâm lý, tính cách bền vững, với một nhà nước và pháp luật thống nhất. Ở châu Âu, dân tộc hình thành gắn liền với sự ra đời của chủ nghĩa tư bản. Ở phương Đông, trong đó có Việt Nam, dân tộc được hình thành sớm hơn, gắn liền với nhu cầu dựng nước và giữ nước.</p>
                     
                     <h5>3. Mối quan hệ giai cấp - dân tộc - nhân loại</h5>
-                    <p><b>Quan hệ giai cấp - dân tộc:</b> Giai cấp quyết định dân tộc (giai cấp thống trị quy định tính chất, khuynh hướng phát triển của dân tộc). Ngược lại, vấn đề dân tộc có ảnh hưởng quan trọng đến vấn đề giai cấp (đấu tranh giải phóng dân tộc là điều kiện cho giải phóng giai cấp).</p>
-                    <p><b>Quan hệ giai cấp, dân tộc với nhân loại:</b> Nhân loại là khái niệm chỉ toàn thể cộng đồng người trên trái đất. Trong xã hội có giai cấp, lợi ích nhân loại không tách rời và bị chi phối bởi lợi ích giai cấp, dân tộc. Giai cấp công nhân là giai cấp có lợi ích phù hợp với lợi ích của dân tộc và nhân loại.</p>
+                    <p>Quan hệ giai cấp quyết định khuynh hướng phát triển và tính chất của dân tộc. Ngược lại, vấn đề dân tộc có ảnh hưởng quan trọng đến vấn đề giai cấp. Trong xã hội có giai cấp, lợi ích nhân loại không tách rời và bị chi phối bởi lợi ích giai cấp, dân tộc. Giai cấp công nhân là giai cấp có lợi ích phù hợp với lợi ích căn bản của dân tộc và nhân loại hiện nay.</p>
                     
                     <h4>III. Nhà nước và Cách mạng xã hội</h4>
                      <h5>1. Nhà nước</h5>
-                     <p><b>Nguồn gốc:</b> Nhà nước ra đời khi xã hội phân chia thành các giai cấp đối kháng, là sản phẩm và biểu hiện của những mâu thuẫn giai cấp không thể điều hòa được. Nguyên nhân sâu xa là sự xuất hiện chế độ tư hữu, nguyên nhân trực tiếp là mâu thuẫn giai cấp gay gắt.</p>
-                     <p><b>Bản chất:</b> Nhà nước là một tổ chức quyền lực chính trị của một giai cấp thống trị về mặt kinh tế nhằm bảo vệ trật tự hiện hành và đàn áp sự phản kháng của các giai cấp khác. Nó là công cụ chuyên chính của một giai cấp.</p>
-                     <p><b>Chức năng:</b> Gồm chức năng thống trị chính trị (bảo vệ lợi ích giai cấp thống trị) và chức năng xã hội (quản lý các công việc chung của xã hội); chức năng đối nội và chức năng đối ngoại.</p>
+                     <p><b>Nguồn gốc:</b> Nhà nước là sản phẩm và biểu hiện của những mâu thuẫn giai cấp không thể điều hòa được. Nó ra đời khi xã hội phân chia thành các giai cấp đối kháng.</p>
+                     <p><b>Bản chất:</b> Nhà nước là một tổ chức quyền lực chính trị của giai cấp thống trị về mặt kinh tế nhằm bảo vệ trật tự hiện hành và đàn áp sự phản kháng của các giai cấp khác. Nó là công cụ chuyên chính của một giai cấp.</p>
+                     <p><b>Chức năng:</b> Chức năng thống trị chính trị (bảo vệ lợi ích giai cấp thống trị) và chức năng xã hội (quản lý các công việc chung của xã hội). Trong đó, chức năng thống trị chính trị giữ vai trò quyết định.</p>
                      
                      <h5>2. Cách mạng xã hội</h5>
-                     <p><b>Cách mạng xã hội (CMXH):</b> Theo nghĩa rộng, là sự thay đổi căn bản về chất của một hình thái kinh tế - xã hội, là bước chuyển từ một HTKT-XH này lên một HTKT-XH mới tiến bộ hơn. Theo nghĩa hẹp, là đỉnh cao của đấu tranh giai cấp nhằm lật đổ chính quyền cũ, thiết lập chính quyền mới.</p>
-                     <p><b>Nguồn gốc:</b> Nguồn gốc sâu xa là mâu thuẫn giữa LLSX và QHSX. Nguồn gốc trực tiếp là mâu thuẫn giai cấp và đấu tranh giai cấp. CMXH nổ ra khi có "tình thế cách mạng".</p>
+                     <p><b>Bản chất:</b> Cách mạng xã hội là sự thay đổi căn bản về chất toàn bộ các lĩnh vực của đời sống xã hội, là bước chuyển từ một HTKT-XH này lên một HTKT-XH mới tiến bộ hơn. Đỉnh cao của đấu tranh giai cấp là cách mạng xã hội. Vấn đề cơ bản của mọi cuộc cách mạng xã hội là vấn đề giành chính quyền.</p>
+                     <p>Cách mạng xã hội khác với <b>tiến hóa xã hội</b> (thay đổi từ từ), <b>cải cách xã hội</b> (thay đổi bộ phận) và <b>đảo chính</b> (thay đổi chính quyền nhưng không thay đổi chế độ).</p>
                     
                     <h4>IV. Ý thức xã hội</h4>
                      <p><b>Tồn tại xã hội (TTXH)</b> là toàn bộ sinh hoạt vật chất và những điều kiện sinh hoạt vật chất của xã hội (phương thức sản xuất, điều kiện tự nhiên, dân số...).</p>
-                     <p><b>Ý thức xã hội (YTXH)</b> là mặt tinh thần của đời sống xã hội. Kết cấu của YTXH gồm: tâm lý xã hội và hệ tư tưởng; ý thức xã hội thông thường và ý thức lý luận. Các hình thái ý thức xã hội gồm: ý thức chính trị, pháp quyền, đạo đức, nghệ thuật, tôn giáo, khoa học, triết học.</p>
-                     <p><b>Mối quan hệ biện chứng:</b> TTXH quyết định YTXH. Tuy nhiên, YTXH có tính độc lập tương đối: thường lạc hậu hơn TTXH; có thể vượt trước TTXH; có tính kế thừa trong sự phát triển; có sự tác động qua lại giữa các hình thái; và tác động trở lại mạnh mẽ đến TTXH.</p>
+                     <p><b>Ý thức xã hội (YTXH)</b> là mặt tinh thần của đời sống xã hội, bao gồm tâm lý xã hội và hệ tư tưởng. YTXH có nhiều hình thái: ý thức chính trị, pháp quyền, đạo đức, nghệ thuật, tôn giáo, khoa học, triết học.</p>
+                     <p><b>Mối quan hệ biện chứng:</b> TTXH quyết định YTXH. Tuy nhiên, YTXH có <b>tính độc lập tương đối</b> (thường lạc hậu hơn so với TTXH, có thể vượt trước, có tính kế thừa, có sự tác động qua lại giữa các hình thái) và tác động trở lại mạnh mẽ đến TTXH.</p>
 
                     <h4>V. Triết học về Con người</h4>
                     <ul>
-                        <li><b>Con người và bản chất con người:</b> Con người là một thực thể sinh học - xã hội. Con người khác biệt với con vật ngay từ khi bắt đầu sản xuất ra tư liệu sinh hoạt của mình. "Trong tính hiện thực của nó, bản chất con người là <b>tổng hòa những quan hệ xã hội</b>". Con người vừa là sản phẩm của lịch sử, vừa là chủ thể sáng tạo ra lịch sử.</li>
-                        <li><b>Hiện tượng tha hóa con người:</b> Thực chất là lao động của con người bị tha hóa, tức là quá trình lao động và sản phẩm của nó biến thành lực lượng đối lập, thống trị lại con người. Nguyên nhân là chế độ tư hữu về tư liệu sản xuất.</li>
-                        <li><b>Vấn đề giải phóng con người:</b> Là mục tiêu cuối cùng của chủ nghĩa Mác, bao gồm giải phóng giai cấp, giải phóng dân tộc và giải phóng toàn thể nhân loại, tạo điều kiện cho "sự phát triển tự do của mỗi người là điều kiện cho sự phát triển tự do của tất cả mọi người".</li>
-                        <li><b>Vai trò của quần chúng nhân dân và lãnh tụ trong lịch sử:</b> Lịch sử do <b>quần chúng nhân dân</b> (lực lượng sản xuất, lực lượng cách mạng) sáng tạo ra, họ là động lực quyết định của lịch sử. <b>Lãnh tụ</b> là những cá nhân kiệt xuất do phong trào của quần chúng tạo ra, có vai trò to lớn trong việc nhận thức quy luật và dẫn dắt quần chúng.</li>
+                        <li><b>Con người và bản chất con người:</b> Con người là một thực thể sinh học - xã hội. Con người khác biệt với con vật ngay từ khi bắt đầu sản xuất ra những tư liệu sinh hoạt của mình. "Trong tính hiện thực của nó, bản chất con người là <b>tổng hòa những quan hệ xã hội</b>". Con người vừa là sản phẩm của lịch sử, vừa là chủ thể sáng tạo ra lịch sử.</li>
+                        <li><b>Hiện tượng tha hóa con người và vấn đề giải phóng con người:</b> Tha hóa là tình trạng lao động và sản phẩm lao động của con người biến thành lực lượng đối lập, thống trị lại con người. Nguyên nhân là chế độ tư hữu. Mục tiêu cuối cùng là giải phóng con người một cách toàn diện, tạo điều kiện cho "sự phát triển tự do của mỗi người là điều kiện cho sự phát triển tự do của tất cả mọi người".</li>
+                        <li><b>Vai trò của quần chúng nhân dân và lãnh tụ trong lịch sử:</b> Lịch sử do <b>quần chúng nhân dân</b> (những người lao động, các lực lượng cách mạng...) sáng tạo ra. Quần chúng là động lực quyết định của lịch sử. <b>Lãnh tụ</b> là những cá nhân kiệt xuất do phong trào của quần chúng tạo ra, có vai trò to lớn trong việc nhận thức quy luật, đề ra đường lối và dẫn dắt quần chúng.</li>
                     </ul>
 
                     <div class="infographic">
-                         <h4 class="text-2xl font-bold mb-4">Cấu trúc Hình thái Kinh tế - Xã hội</h4>
+                         <h4 class="text-2xl font-bold mb-4">Infographic: Cấu trúc Hình thái Kinh tế - Xã hội</h4>
                         <svg width="100%" height="350" viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
                              <!-- KTTT -->
                             <rect x="100" y="20" width="300" height="80" rx="10" fill="#e74c3c" fill-opacity="0.8"/>
                             <text x="250" y="50" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">KIẾN TRÚC THƯỢNG TẦNG</text>
-                            <text x="250" y="70" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">(Nhà nước, Đảng phái, Pháp luật...)</text>
+                            <text x="250" y="70" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">(Nhà nước, Đảng phái, Pháp luật, Đạo đức...)</text>
                              
                             <!-- Arrow down -->
                             <path d="M 250 100 V 125" stroke="#34495e" stroke-width="2" marker-end="url(#arrowhead)"/>
@@ -788,7 +789,7 @@
     <footer class="footer">
         <p>Tổng hợp phi thương mại dựa trên 'Giáo trình Triết học Mác - Lênin' và các bài giảng đại học liên quan.</p>
         <p>2025 KMA CT100216 Nguyễn Đức Đại.</p>
-        <p>Liên hệ: <a href="mailto:contact@example.com" class="text-blue-300 hover:underline">nguyenducdai01032007@gmail.com</a></p>
+        <p>Liên hệ: <a href="mailto:nguyenducdai01032007@gmail.com" class="text-blue-300 hover:underline">nguyenducdai01032007@gmail.com</a></p>
     </footer>
 
     <script>
@@ -809,8 +810,6 @@
 
 </body>
 </html>
-
-
 
 
 
